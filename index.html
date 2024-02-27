@@ -121,6 +121,9 @@ cookieconsent.run({
 });
 </script> 
   
+<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -238,16 +241,6 @@ window.Quarto = {
 
 
 
-<section id="general" class="level1">
-<h1>General</h1>
-<p>The work to be done in this thesis is part of the practical training in the field of infrastructure management of the Institute of Construction and Infrastructure Management and serves as preparation for the students for their future working career. Through the realization of this project it is expected that the students will gain experience with:</p>
-<ul>
-<li><p>the handling of real world problems related to their field of study,</p></li>
-<li><p>the application of an appropriate procedure and methodology to solve the given problem,</p></li>
-<li><p>the preparation of a clear and structured presentation of the concepts and results,</p></li>
-<li><p>the development of an independent understanding of the project and creative solutions and ideas.</p></li>
-</ul>
-</section>
 <section id="problem-statement" class="level1">
 <h1>Problem statement</h1>
 <p>Proper management of infrastructure requires forecasting the condition of infrastructure assets and the level of funding required to ensure that they provide an adequate level of service, with due consideration of the associated uncertainties. In this project, you will make these estimates for the railway infrastructure network of the SZU. You will estimate how the condition of the existing network will change over the next 50 years, propose possible infrastructure interventions to maintain an adequate level of service, and estimate the cost of these interventions. In this project you will learn to:</p>
@@ -257,8 +250,39 @@ window.Quarto = {
 <li><p>Develop models for the condition of individual objects, as well as how they change over time, and</p></li>
 <li><p>Develop and evaluate interventions for infrastructure networks considering data uncertainty.</p></li>
 </ul>
-<p>In this platform we upload the slides related to each weekly meeting.</p>
-<p>—————————————————————————————————————————————————————————————————</p>
+<p>Here we upload the slides related to each weekly meeting according to the following timeline:</p>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">gantt
+    title Thesis timeline
+    dateFormat  YYYY-MM-DD
+    section Initialisation
+    Kick-off meeting : milestone, a1, 2024-02-26, 1d
+    
+    section Work in progress
+    Determine objective functions and classify assets :after a1, 7d
+    Define condition classes and model deterioration : 7d
+    Determine possible interventions &amp; strategies : 14d
+    Estimate cost of interventions and their impacts : 14d
+    Interim presentation :crit, 2024-04-08, 1d
+    Determine optimal interventioin strategy : 14d
+    Develop intervention program : 21d
+    Review results and any assumptions : 14d
+    Final presentation :crit, 2024-05-27, 1d
+    
+    section Finalisation
+    Document work incl. meeting minutes, final report, etc. :active a2,  2024-03-04, 12w
+    Material submission : milestone, 2024-05-31, 1d
+    
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
 
 
 
@@ -266,10 +290,10 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="task1" data-listing-date-sort="1709506800000" data-listing-file-modified-sort="1709022482496" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
+<div class="quarto-post image-right" data-index="0" data-categories="task1" data-listing-date-sort="1709506800000" data-listing-file-modified-sort="1709025875434" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
 <div class="thumbnail">
 <p><a href="./posts/defineObjectives/index.html" class="no-external"></a></p><a href="./posts/defineObjectives/index.html" class="no-external">
-<p><img src="./posts/defineObjectives/thumbnail.jpg" class="thumbnail-image"></p>
+<p><img src="./posts/defineObjectives/thumbnail.png" class="thumbnail-image"></p>
 </a><p><a href="./posts/defineObjectives/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
