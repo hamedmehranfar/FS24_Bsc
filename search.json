@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Estimation of financial needs and condition of infrastructure objects",
     "section": "",
-    "text": "Problem statement\nProper management of infrastructure requires forecasting the condition of infrastructure assets and the level of funding required to ensure that they provide an adequate level of service, with due consideration of the associated uncertainties. In this project, you will make these estimates for the railway infrastructure network of the SZU. You will estimate how the condition of the existing network will change over the next 50 years, propose possible infrastructure interventions to maintain an adequate level of service, and estimate the cost of these interventions. In this project you will learn to:\n\nOrganize the available data of an infrastructure network,\nEvaluate the impact of individual objects on the overall level of service,\nDevelop models for the condition of individual objects, as well as how they change over time, and\nDevelop and evaluate interventions for infrastructure networks considering data uncertainty.\n\nHere we upload the slides related to each weekly meeting according to the Figure 1.\n\n\n\n\n\n\ngantt\n    title Thesis timeline\n    dateFormat  YYYY-MM-DD\n    section Initialisation\n    Kick-off meeting : milestone, a1, 2024-02-26, 1d\n    \n    section Work in progress\n    Determine objective functions and classify assets :done a1, 2024-03-05,5d\n    Define condition classes and model deterioration : 6d\n    Determine possible interventions & strategies : 12d\n    Estimate cost of interventions and their impacts : 12d\n    Interim presentation :crit, 2024-04-08, 1d\n    Determine optimal interventioin strategy : 14d\n    Develop intervention program : 21d\n    Review results and any assumptions : 14d\n    Final presentation :crit, 2024-05-27, 1d\n    \n    section Finalisation\n    Document work incl. meeting minutes, final report, etc. :active a2,  2024-03-04, 12w\n    Material submission : milestone, 2024-05-31, 1d\n    \n\n\n\n\nFigure 1: The timeline for accomplishing the thesis.\n\n\n\n\n\nTopics \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDetermine objective function and classify assets\n\n\nEstimation of financial needs and condition of infrastructure assets\n\n\n\nWeek2\n\n\n\n\n\n\n\n\n\nMar 5, 2024\n\n\nHamed Mehranfar, Yushu An\n\n\n\n\n\n\nNo matching items"
+    "text": "Problem statement\nProper management of infrastructure requires forecasting the condition of infrastructure assets and the level of funding required to ensure that they provide an adequate level of service, with due consideration of the associated uncertainties. In this project, you will make these estimates for the railway infrastructure network of the SZU. You will estimate how the condition of the existing network will change over the next 50 years, propose possible infrastructure interventions to maintain an adequate level of service, and estimate the cost of these interventions. In this project you will learn to:\n\nOrganize the available data of an infrastructure network,\nEvaluate the impact of individual objects on the overall level of service,\nDevelop models for the condition of individual objects, as well as how they change over time, and\nDevelop and evaluate interventions for infrastructure networks considering data uncertainty.\n\nHere we upload the slides related to each weekly meeting according to the Figure 1.\n\n\n\n\n\n\ngantt\n    title Thesis timeline\n    dateFormat  YYYY-MM-DD\n    section Initialisation\n    Kick-off meeting : milestone, a1, 2024-02-26, 1d\n    \n    section Work in progress\n    Determine objective functions and classify assets :done a1, 2024-03-05,5d\n    Define condition classes and model deterioration : 6d\n    Determine possible interventions & strategies : 12d\n    Estimate cost of interventions and their impacts : 12d\n    Interim presentation :crit, 2024-04-08, 1d\n    Determine optimal interventioin strategy : 14d\n    Develop intervention program : 21d\n    Review results and any assumptions : 14d\n    Final presentation :crit, 2024-05-27, 1d\n    \n    section Finalisation\n    Document work incl. meeting minutes, final report, etc. :active a2,  2024-03-04, 12w\n    Material submission : milestone, 2024-05-31, 1d\n    \n\n\n\n\nFigure 1: The timeline for accomplishing the thesis.\n\n\n\n\n\nTopics \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDefine condition classes and model deterioration\n\n\nEstimation of financial needs and condition of infrastructure assets\n\n\n\nWeek3\n\n\n\n\n\n\n\n\n\nMar 11, 2024\n\n\nHamed Mehranfar, Yushu An\n\n\n\n\n\n\n\n\n\n\n\n\nDetermine objective function and classify assets\n\n\nEstimation of financial needs and condition of infrastructure assets\n\n\n\nWeek2\n\n\n\n\n\n\n\n\n\nMar 5, 2024\n\n\nHamed Mehranfar, Yushu An\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -150,8 +150,8 @@
     "objectID": "posts/01_defineObjectives/index.html#infrastructure-management",
     "href": "posts/01_defineObjectives/index.html#infrastructure-management",
     "title": "Determine objective function and classify assets",
-    "section": "Infrastructure management",
-    "text": "Infrastructure management\n\n\nThe process used to ensure that existing infrastructure (assets and/or networks) provide adequate levels of service for specified periods of time.\nTo understand why the infrastructure is the way it is today, we want to know:\n\nHow many trains operate on the network? How frequent is the service?\nHow many passengers travel on a daily, weekly, monthly, or yearly basis? Why?\nHow many people or businesses are near the infrastructure?\nWhen was the infrastructure built and/or modified in the past?\n…\n\n\n\n\nIt requires taking into consideration the benefits and costs of infrastructure to all members of society, including economic, ecological and social benefits and costs.\nIt also requires balancing the need for prediction accuracy with analysis effort."
+    "section": "",
+    "text": "The process used to ensure that existing infrastructure (assets and/or networks) provide adequate levels of service for specified periods of time.\nTo understand why the infrastructure is the way it is today, we want to know:\n\nHow many trains operate on the network? How frequent is the service?\nHow many passengers travel on a daily, weekly, monthly, or yearly basis? Why?\nHow many people or businesses are near the infrastructure?\nWhen was the infrastructure built and/or modified in the past?\n…\n\n\n\n\nIt requires taking into consideration the benefits and costs of infrastructure to all members of society, including economic, ecological and social benefits and costs.\nIt also requires balancing the need for prediction accuracy with analysis effort."
   },
   {
     "objectID": "posts/01_defineObjectives/index.html#objective-function",
@@ -207,14 +207,14 @@
     "href": "posts/01_defineObjectives/index.html#stakeholders-and-value-framework",
     "title": "Determine objective function and classify assets",
     "section": "Stakeholders and value framework",
-    "text": "Stakeholders and value framework\n\n\n\n \n\n\n\n\nThere are different ways to analyse stakeholders, but the analysis needs to be consistent. Being a stakeholder is time dependent.\nStakeholders are affected in different ways, attribute costs to stakeholders most directly affected. Define each so that they can be quantified. Principal stakeholders.\nMeasure impact through indicators. Attribute monetary values to each unit change in the values of these indicators over time."
+    "text": "Stakeholders and value framework\n\n\n\n\n\n\n \n\n\n\n\nThere are different ways to analyse stakeholders, but the analysis needs to be consistent. Being a stakeholder is time dependent.\nStakeholders are affected in different ways, attribute costs to stakeholders most directly affected. Define each so that they can be quantified. Principal stakeholders.\nMeasure impact through indicators. Attribute monetary values to each unit change in the values of these indicators over time."
   },
   {
     "objectID": "posts/01_defineObjectives/index.html#stakeholders-and-value-framework-1",
     "href": "posts/01_defineObjectives/index.html#stakeholders-and-value-framework-1",
     "title": "Determine objective function and classify assets",
     "section": "Stakeholders and value framework",
-    "text": "Stakeholders and value framework\n\n\n\n\n\n\n\n\n\n\nStakeholder group\nDefinition\nImpact type\n\n\n\n\nOwners\nPersons who pay for the interventions on the infrastructure\nIntervention\n\n\nUsers\nPersons who are using the roads\nTravel time  Accident  Comfort\n\n\nDirectly affected public\nPersons who are in the vicinity of the road but are not using it\nNoise\n\n\nIndirectly affected public\nPersons who are not in the vicinity of the road but are affected by its use\nParticle emissions\n\n\n\n\n\n\n\nOwner: Impact of executing interventions – economic impact of people performing tasks, ensuring that materials and equipment are available for use\nUser: Impact on the users due to the users being involved in an accident – economic impact due to injury or fatality Impact of travel condition in terms of time lost – economic impact of wasting work or leisure time travelling Impact of travelling on the users – physical impact from bruises from a bumpy ride, psychological impact of perceived probability involved in accident\nDAP: Societal impact due to the directly affected public coming in contact with sound emissions\nIAP: Impact on people due to the environment being impacted by particle emissions such as carbon dioxide, nitrogen monoxide, sulfur dioxide, dust, etc.\nREMEMBER: pick stakeholders and impact that is significant, and quantifiable.\n\n\nAdey, B.T., Burkhalter, M., & Martani, C. (2020). Defining road service to facilitate road infrastructure asset management. Infrastructure Asset Management, 7(4), pp. 240-255."
+    "text": "Stakeholders and value framework\n\n\n\n\n\n\n\n\n\n\nStakeholder group\nDefinition\nImpact type\n\n\n\n\nOwners\nPersons who pay for the interventions on the infrastructure\nIntervention\n\n\nUsers\nPersons who are using the roads\nTravel time  Accident  Comfort\n\n\nDirectly affected public\nPersons who are in the vicinity of the road but are not using it\nNoise\n\n\nIndirectly affected public\nPersons who are not in the vicinity of the road but are affected by its use\nParticle emissions\n\n\n\n\n\n\n\nAdey, B.T., Burkhalter, M., & Martani, C. (2020). Defining road service to facilitate road infrastructure asset management. Infrastructure Asset Management, 7(4), pp. 240-255.\n\nOwner: Impact of executing interventions – economic impact of people performing tasks, ensuring that materials and equipment are available for use\nUser: Impact on the users due to the users being involved in an accident – economic impact due to injury or fatality Impact of travel condition in terms of time lost – economic impact of wasting work or leisure time travelling Impact of travelling on the users – physical impact from bruises from a bumpy ride, psychological impact of perceived probability involved in accident\nDAP: Societal impact due to the directly affected public coming in contact with sound emissions\nIAP: Impact on people due to the environment being impacted by particle emissions such as carbon dioxide, nitrogen monoxide, sulfur dioxide, dust, etc.\nREMEMBER: pick stakeholders and impact that is significant, and quantifiable."
   },
   {
     "objectID": "posts/01_defineObjectives/index.html#next-steps",
@@ -228,6 +228,153 @@
     "href": "posts/01_defineObjectives/index.html#thank-you-for-your-attention",
     "title": "Determine objective function and classify assets",
     "section": "Thank you for your attention!",
-    "text": "Thank you for your attention!\nQuestions?\n\n\n   Hamed Mehranfar Doctoral student hmehranfar@ethz.ch  ETH Zürich Institute of Construction and Infrastructure Management (IBI) Chair of Infrastructure Management HIL G 32.2, Stefano-Franscini-Platz 5 8093 Zürich\nwww.ibi.ethz.ch\n\n\n\n\t\n\n\n\t\n\t\t\n\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\n\t\n\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\n\t\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\n\t\n\n\n\n\n\n\n\n  \n    \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  Institut fürBau- und Infrastruktur-management"
+    "text": "Thank you for your attention!\nQuestions?\n\n\n   Hamed Mehranfar Doctoral student hmehranfar@ethz.ch  ETH Zürich Institute of Construction and Infrastructure Management (IBI) Chair of Infrastructure Management HIL G 32.2, Stefano-Franscini-Platz 5 8093 Zürich\nwww.ibi.ethz.ch"
+  },
+  {
+    "objectID": "posts/02_CSdef&DetModeling/index.html#some-questions",
+    "href": "posts/02_CSdef&DetModeling/index.html#some-questions",
+    "title": "Define condition classes and model deterioration",
+    "section": "Some questions",
+    "text": "Some questions\n\n\n\nHow can we measure the deterioration?     \nHow fast do assets deteriorate?\n\n\n \n\n\n\n\n\n\nHow fast our assets are deteriorating?"
+  },
+  {
+    "objectID": "posts/02_CSdef&DetModeling/index.html#test",
+    "href": "posts/02_CSdef&DetModeling/index.html#test",
+    "title": "Define condition classes and model deterioration",
+    "section": "TEst",
+    "text": "TEst\n\n\n\n\n\n\n\n\n\nWith data With expert  opinion With  deterministic  deterioration  model"
+  },
+  {
+    "objectID": "posts/02_CSdef&DetModeling/index.html#thank-you-for-your-attention",
+    "href": "posts/02_CSdef&DetModeling/index.html#thank-you-for-your-attention",
+    "title": "Define condition classes and model deterioration",
+    "section": "Thank you for your attention!",
+    "text": "Thank you for your attention!\nQuestions?\n\n\n   Hamed Mehranfar Doctoral student hmehranfar@ethz.ch  ETH Zürich Institute of Construction and Infrastructure Management (IBI) Chair of Infrastructure Management HIL G 32.2, Stefano-Franscini-Platz 5 8093 Zürich\nwww.ibi.ethz.ch"
+  },
+  {
+    "objectID": "posts/02_CSdef&DetModeling/index.html#introduction-what-has-to-be-predicted",
+    "href": "posts/02_CSdef&DetModeling/index.html#introduction-what-has-to-be-predicted",
+    "title": "Define condition classes and model deterioration",
+    "section": "Introduction – What has to be predicted?",
+    "text": "Introduction – What has to be predicted?\n\n\n\nRequired\n\n\nProvided\n\nGradual/Manifest\n\nSudden/Latent"
+  },
+  {
+    "objectID": "posts/02_CSdef&DetModeling/index.html#section",
+    "href": "posts/02_CSdef&DetModeling/index.html#section",
+    "title": "Define condition classes and model deterioration",
+    "section": ":::",
+    "text": ":::\nHow do we predict the future states of infrastructure if we consider the infrastructure to be in discrete states?"
+  },
+  {
+    "objectID": "posts/02_CSdef&DetModeling/index.html",
+    "href": "posts/02_CSdef&DetModeling/index.html",
+    "title": "Define condition classes and model deterioration",
+    "section": "",
+    "text": "How can we measure the deterioration?     \nHow fast do assets deteriorate?\n\n\n \n\n\n\n\n\n\nHow fast our assets are deteriorating?"
+  },
+  {
+    "objectID": "posts/02_CSdef&DetModeling/index.html#test-test",
+    "href": "posts/02_CSdef&DetModeling/index.html#test-test",
+    "title": "Define condition classes and model deterioration",
+    "section": "test test",
+    "text": "test test\n\n\nRequired\nProvided\nGradual/Manifest\nSudden/Latent"
+  },
+  {
+    "objectID": "posts/02_CSdef&DetModeling/index.html#suddenlatent",
+    "href": "posts/02_CSdef&DetModeling/index.html#suddenlatent",
+    "title": "Define condition classes and model deterioration",
+    "section": "Sudden/Latent",
+    "text": "Sudden/Latent"
+  },
+  {
+    "objectID": "posts/02_CSdef&DetModeling/index.html#introduction-what-has-to-be-predicted-1",
+    "href": "posts/02_CSdef&DetModeling/index.html#introduction-what-has-to-be-predicted-1",
+    "title": "Define condition classes and model deterioration",
+    "section": "Introduction – What has to be predicted?",
+    "text": "Introduction – What has to be predicted?\n\n\n\nRequired\n\n\nProvided\n\nGradual/Manifest\n\nSudden/Latent"
+  },
+  {
+    "objectID": "posts/02_CSdef&DetModeling/index.html#how-do-we-estimate-transition-probabilities",
+    "href": "posts/02_CSdef&DetModeling/index.html#how-do-we-estimate-transition-probabilities",
+    "title": "Define condition classes and model deterioration",
+    "section": "How do we estimate transition probabilities?",
+    "text": "How do we estimate transition probabilities?\n\n\n\n\n\n\n\n\n\nWith data With  expert  opinion With  deterministic  deterioration  model"
+  },
+  {
+    "objectID": "posts/02_CSdef&DetModeling/index.html#introduction-which-processes-do-you-want-to-consider",
+    "href": "posts/02_CSdef&DetModeling/index.html#introduction-which-processes-do-you-want-to-consider",
+    "title": "Define condition classes and model deterioration",
+    "section": "Introduction – Which processes do you want to consider?",
+    "text": "Introduction – Which processes do you want to consider?\n\n\n\n\n\n\n\n\n\n\nProcess\nSubprocess\nComments\n\n\n\n\nConcrete surface wear\nAbrasion\nmoving objects in contact with concrete which can wear away and often desired roughness\n\n\nAggregate deterioration\nAlkali-silica reaction\na reaction between the hydroxide ions in the alkaline cement pore solution in the concrete and reactive forms of silica in the aggregate form a gel is produced, which increases in volume by taking up water and so exerts an expansive pressure\n\n\n\nFreezing and thawing\nunder humid conditions pores may be water-filled and under freezing conditions, water in these pores may freeze and thaw, which causes immense hydraulic pressure, which cracks concrete\n\n\nCement paste deterioration process\nDeterioration due to sulfate\nexposure to industrial and agricultural chemicals can result in the breakdown of the cement paste, the glue that holds concrete together\n\n\nReinforcement corrosion process\nChloride-induced corrosion of steel\nCorrosion of steel can cause the production of a rusted product that is significantly larger than the normal steel cracking the surrounding concrete and destroying the bond between concrete and steel. There may also be section loss of the steel reinforcement.\n\n\n\nCarbonation-induced corrosion of steel\nCarbonation, or neutralization, is a chemical reaction between carbon dioxide in the air with calcium hydroxide and hydrated calcium silicate in the concrete."
+  },
+  {
+    "objectID": "posts/02_CSdef&DetModeling/index.html#introduction-which-processes-do-you-want-to-consider-chloride-induced-corrosion-of-steel",
+    "href": "posts/02_CSdef&DetModeling/index.html#introduction-which-processes-do-you-want-to-consider-chloride-induced-corrosion-of-steel",
+    "title": "Define condition classes and model deterioration",
+    "section": "Introduction – Which processes do you want to consider? Chloride induced corrosion of steel",
+    "text": "Introduction – Which processes do you want to consider? Chloride induced corrosion of steel"
+  },
+  {
+    "objectID": "posts/02_CSdef&DetModeling/index.html#introduction---are-you-predicting-state-or-service",
+    "href": "posts/02_CSdef&DetModeling/index.html#introduction---are-you-predicting-state-or-service",
+    "title": "Define condition classes and model deterioration",
+    "section": "Introduction - Are you predicting state or service?",
+    "text": "Introduction - Are you predicting state or service?\n\n\n\n\n\n\n\n\n\n\n\n\n\nDeterioration process phases\nVisual condition indications\nTime\nProvided service\n\n\n\n\n1\nPenetration of water and de-icing salts into surface concrete\nNone\n1\n1\n\n\n2\nBreakdown of depassivation layer of top reinforcement\nNone\n2\n1\n\n\n3\nRusting of top reinforcement\nNone\n3\n1\n\n\n4\nCracking and spalling of surface concrete\nSmall pockmarks on the surface, often accompanied by a rust stain, and usually at a point corresponding to the location of a top reinforcing bar\n5\n1\n\n\n5\nShifting of the compressive zone in the concrete deck\nSpalling in multiple locations and some of these locations had significant amounts of exposed reinforcement  Uniformly spaced cracks on the underside of the slab, beneath spalled areas\n5\n1\n\n\n6\nOverstressing of the bottom reinforcement\nNo additional visual indications\n6\n1\n\n\n7\nCracking of the bottom concrete\nSpalling in numerous widely dispersed locations over relatively large areas, more intense under the truck lanes.\n7\n1\n\n\n8\nPunching failures\nSpalling in numerous widely dispersed locations over relatively large areas, extensive cracking was observed, two punching failures of the deck slab occurred\n8\n2\n\n\n9\nCollapse\n-\n?\n3"
+  },
+  {
+    "objectID": "posts/02_CSdef&DetModeling/index.html#which-states-do-we-want-to-use",
+    "href": "posts/02_CSdef&DetModeling/index.html#which-states-do-we-want-to-use",
+    "title": "Define condition classes and model deterioration",
+    "section": "Which states do we want to use?",
+    "text": "Which states do we want to use?\n\n\n\n\n\n\n\n\n\n\n\n\nItem\nState\nCondition\nDescription of condition on entry\n\n\n\n\nDeck\n1\nGood\nno signs rust\n\n\n\n2\nAcceptable\nminor spots of rust and/or spalling and thin cracks less than 2.5 mm wide\n\n\n\n3\nDamaged\nmajor spots of rust and/or spalling and thin cracks\n\n\n\n4\nPoor\nmajor spots of rust and/or spalling and section loss of reinforcement less than 10%\n\n\n\n5\nAlarming\nsection loss of reinforcement more than 10%"
+  },
+  {
+    "objectID": "posts/02_CSdef&DetModeling/index.html#szu-example",
+    "href": "posts/02_CSdef&DetModeling/index.html#szu-example",
+    "title": "Define condition classes and model deterioration",
+    "section": "SZU example",
+    "text": "SZU example"
+  },
+  {
+    "objectID": "posts/02_CSdef&DetModeling/index.html#how-do-we-estimate-transition-probabilities-if-we-have-data-at-uniform-inspection-intervals",
+    "href": "posts/02_CSdef&DetModeling/index.html#how-do-we-estimate-transition-probabilities-if-we-have-data-at-uniform-inspection-intervals",
+    "title": "Define condition classes and model deterioration",
+    "section": "How do we estimate transition probabilities if we have data (at uniform inspection intervals)?",
+    "text": "How do we estimate transition probabilities if we have data (at uniform inspection intervals)?\n\n\n\nIn year \\(t\\) – number of items in \\(S_i = X_i\\)\nIn year \\(t+1\\) - number of items moved from \\(S_i\\) to \\(S_j\\) \\(= Y_{ij}\\)\nTransition probability of remaining in \\(S_i =\\) \\(Y_{ii}\\over X_{i}\\)\nTransition probability of moving from \\(S_i\\) to \\(S_j=\\) \\(Y_{ij}\\over X_{i}\\) \\(\\forall i\\neq j\\)."
+  },
+  {
+    "objectID": "posts/02_CSdef&DetModeling/index.html#how-do-we-estimate-transition-probabilities-if-we-have-deterministic-models",
+    "href": "posts/02_CSdef&DetModeling/index.html#how-do-we-estimate-transition-probabilities-if-we-have-deterministic-models",
+    "title": "Define condition classes and model deterioration",
+    "section": "How do we estimate transition probabilities if we have deterministic models?",
+    "text": "How do we estimate transition probabilities if we have deterministic models?\n\nMinimise the long-term difference between:\n\nthe state predicted using the deterministic model, i.e., \\(y(t)\\)\naverage state predicted using the transition probabilities, i.e., \\(\\bar y(t)\\)\n\n\n\\[\nZ = \\sum_t (y(t)-\\bar y(t))^2\n\\] ————————————————————————"
+  },
+  {
+    "objectID": "posts/02_CSdef&DetModeling/index.html#how-do-we-estimate-transition-probabilities-if-we-have-deterministic-models-1",
+    "href": "posts/02_CSdef&DetModeling/index.html#how-do-we-estimate-transition-probabilities-if-we-have-deterministic-models-1",
+    "title": "Define condition classes and model deterioration",
+    "section": "How do we estimate transition probabilities if we have deterministic models?",
+    "text": "How do we estimate transition probabilities if we have deterministic models?\n\n\n\nDeterministic model\n\n\\[\nC(t)=0.16\\cdot t+1\n\\] - Objective function\n\\[\nZ=\\sum_{t=1}^{T}(0.16\\cdot t-\\bar C(t))^2\n\\]\n\n\n\n\nTransition probabilities,i.e., Deterioration matrix\n\n\\[\nP = \\begin{bmatrix}\np_{11} & 1-p_{11} & 0 & 0 & 0 \\\\\n0 & p_{22} & 1-p_{22} & 0 & 0 \\\\\n0 & 0 & p_{33} & 1-p_{33} & 0 \\\\\n0 & 0 & 0 & p_{44} & 1-p_{44} \\\\\n0 & 0 & 0 & 0 & 1\n\\end{bmatrix}\n\\]\n\nCondition distribution at \\(t\\)\n\n\\[\nC(t)=C(0)\\cdot P^{t}\n\\] Therefore, the average condition state at \\(t\\):\n\\[\n\\bar C(t)=C(0) \\cdot P^{t} \\cdot S \\\\\nS^T=\\begin{pmatrix}  1 & 2 & 3 & 4 & 5 \\end{pmatrix}\n\\]"
+  },
+  {
+    "objectID": "posts/02_CSdef&DetModeling/index.html#how-do-we-estimate-transition-probabilities-for-objects-in-szu-network",
+    "href": "posts/02_CSdef&DetModeling/index.html#how-do-we-estimate-transition-probabilities-for-objects-in-szu-network",
+    "title": "Define condition classes and model deterioration",
+    "section": "How do we estimate transition probabilities for objects in SZU network?",
+    "text": "How do we estimate transition probabilities for objects in SZU network?\n\n\nSensible categories\n\n\n\n\n\nflowchart TD\n    A[Bridge] --&gt;|Height| B[Over 700 m]\n    A --&gt;|Height| C[Under 700 m]\n    B --&gt;|Location| D[Urban]\n    B --&gt;|Location| E[Non-urban]\n    C --&gt;|Location| F[Urban]\n    C --&gt;|Location| G[Non-urban]\n    D --&gt;|Traffic| H[X&lt; per day]\n    D --&gt;|Traffic| L[&lt;=X per day]\n    E --&gt;|Traffic| I[X&lt; per day]\n    E --&gt;|Traffic| M[&lt;=X per day]\n    F --&gt;|Traffic| J[X&lt; per day]\n    F --&gt;|Traffic| N[&lt;=X per day]\n    G --&gt;|Traffic| K[X&lt; per day]\n    G --&gt;|Traffic| O[&lt;=X per day]"
+  },
+  {
+    "objectID": "posts/02_CSdef&DetModeling/index.html#determination-of-transition-probabilities-deterministic-models-example-correlation",
+    "href": "posts/02_CSdef&DetModeling/index.html#determination-of-transition-probabilities-deterministic-models-example-correlation",
+    "title": "Define condition classes and model deterioration",
+    "section": "Determination of transition probabilities \u000bDeterministic models – Example – Correlation",
+    "text": "Determination of transition probabilities \u000bDeterministic models – Example – Correlation\n\n\n\\[\nP_{ij}=1−0.5^{\\frac{t}{T}} \\\\\nP_{12} = 1−0.5^{\\frac{t}{T}} \\\\\nP_{12} = 1−0.5^{\\frac{1}{12}} \\\\\nP_{12} = 1−0.94 \\\\\nP_{12} = 0.056\n\\]\n\n\n\\[\nP_{ii}= 0.5^{ \\frac{t}{T}} \\\\\nP_{11}= 0.5^{ \\frac{t}{T}} \\\\\nP_{11}= 0.5^{ \\frac{1}{12}} \\\\\nP_{11}= 0.944\n\\]\n\n\n\\[\nT= \\frac{1 \\cdot log(0.5)}{log(0.944)} \\\\\nT= \\frac{−0.301}{-0.0269} \\\\\nT=12\n\\]\n\n\n\nWhen an object can change only one state in \\(t\\)."
+  },
+  {
+    "objectID": "posts/02_CSdef&DetModeling/index.html#next-steps",
+    "href": "posts/02_CSdef&DetModeling/index.html#next-steps",
+    "title": "Define condition classes and model deterioration",
+    "section": "Next steps",
+    "text": "Next steps\n\n\n\nToday:\n\nDefinition of the condition states\nModelling the gradual deterioration\n\n\n\n\nNext step:\n\nDefine possible interventions and strategies"
   }
 ]
