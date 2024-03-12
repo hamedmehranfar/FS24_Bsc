@@ -150,8 +150,8 @@
     "objectID": "posts/01_defineObjectives/index.html#infrastructure-management",
     "href": "posts/01_defineObjectives/index.html#infrastructure-management",
     "title": "Determine objective function and classify assets",
-    "section": "",
-    "text": "The process used to ensure that existing infrastructure (assets and/or networks) provide adequate levels of service for specified periods of time.\nTo understand why the infrastructure is the way it is today, we want to know:\n\nHow many trains operate on the network? How frequent is the service?\nHow many passengers travel on a daily, weekly, monthly, or yearly basis? Why?\nHow many people or businesses are near the infrastructure?\nWhen was the infrastructure built and/or modified in the past?\n…\n\n\n\n\nIt requires taking into consideration the benefits and costs of infrastructure to all members of society, including economic, ecological and social benefits and costs.\nIt also requires balancing the need for prediction accuracy with analysis effort."
+    "section": "Infrastructure management",
+    "text": "Infrastructure management\n\n\nThe process used to ensure that existing infrastructure (assets and/or networks) provide adequate levels of service for specified periods of time.\nTo understand why the infrastructure is the way it is today, we want to know:\n\nHow many trains operate on the network? How frequent is the service?\nHow many passengers travel on a daily, weekly, monthly, or yearly basis? Why?\nHow many people or businesses are near the infrastructure?\nWhen was the infrastructure built and/or modified in the past?\n…\n\n\n\n\nIt requires taking into consideration the benefits and costs of infrastructure to all members of society, including economic, ecological and social benefits and costs.\nIt also requires balancing the need for prediction accuracy with analysis effort."
   },
   {
     "objectID": "posts/01_defineObjectives/index.html#objective-function",
@@ -207,14 +207,14 @@
     "href": "posts/01_defineObjectives/index.html#stakeholders-and-value-framework",
     "title": "Determine objective function and classify assets",
     "section": "Stakeholders and value framework",
-    "text": "Stakeholders and value framework\n\n\n\n\n\n\n \n\n\n\n\nThere are different ways to analyse stakeholders, but the analysis needs to be consistent. Being a stakeholder is time dependent.\nStakeholders are affected in different ways, attribute costs to stakeholders most directly affected. Define each so that they can be quantified. Principal stakeholders.\nMeasure impact through indicators. Attribute monetary values to each unit change in the values of these indicators over time."
+    "text": "Stakeholders and value framework\n\n\n\n \n\n\n\n\nThere are different ways to analyse stakeholders, but the analysis needs to be consistent. Being a stakeholder is time dependent.\nStakeholders are affected in different ways, attribute costs to stakeholders most directly affected. Define each so that they can be quantified. Principal stakeholders.\nMeasure impact through indicators. Attribute monetary values to each unit change in the values of these indicators over time."
   },
   {
     "objectID": "posts/01_defineObjectives/index.html#stakeholders-and-value-framework-1",
     "href": "posts/01_defineObjectives/index.html#stakeholders-and-value-framework-1",
     "title": "Determine objective function and classify assets",
     "section": "Stakeholders and value framework",
-    "text": "Stakeholders and value framework\n\n\n\n\n\n\n\n\n\n\nStakeholder group\nDefinition\nImpact type\n\n\n\n\nOwners\nPersons who pay for the interventions on the infrastructure\nIntervention\n\n\nUsers\nPersons who are using the roads\nTravel time  Accident  Comfort\n\n\nDirectly affected public\nPersons who are in the vicinity of the road but are not using it\nNoise\n\n\nIndirectly affected public\nPersons who are not in the vicinity of the road but are affected by its use\nParticle emissions\n\n\n\n\n\n\n\nAdey, B.T., Burkhalter, M., & Martani, C. (2020). Defining road service to facilitate road infrastructure asset management. Infrastructure Asset Management, 7(4), pp. 240-255.\n\nOwner: Impact of executing interventions – economic impact of people performing tasks, ensuring that materials and equipment are available for use\nUser: Impact on the users due to the users being involved in an accident – economic impact due to injury or fatality Impact of travel condition in terms of time lost – economic impact of wasting work or leisure time travelling Impact of travelling on the users – physical impact from bruises from a bumpy ride, psychological impact of perceived probability involved in accident\nDAP: Societal impact due to the directly affected public coming in contact with sound emissions\nIAP: Impact on people due to the environment being impacted by particle emissions such as carbon dioxide, nitrogen monoxide, sulfur dioxide, dust, etc.\nREMEMBER: pick stakeholders and impact that is significant, and quantifiable."
+    "text": "Stakeholders and value framework\n\n\n\n\n\n\n\n\n\n\nStakeholder group\nDefinition\nImpact type\n\n\n\n\nOwners\nPersons who pay for the interventions on the infrastructure\nIntervention\n\n\nUsers\nPersons who are using the roads\nTravel time  Accident  Comfort\n\n\nDirectly affected public\nPersons who are in the vicinity of the road but are not using it\nNoise\n\n\nIndirectly affected public\nPersons who are not in the vicinity of the road but are affected by its use\nParticle emissions\n\n\n\n\n\n\n\nOwner: Impact of executing interventions – economic impact of people performing tasks, ensuring that materials and equipment are available for use\nUser: Impact on the users due to the users being involved in an accident – economic impact due to injury or fatality Impact of travel condition in terms of time lost – economic impact of wasting work or leisure time travelling Impact of travelling on the users – physical impact from bruises from a bumpy ride, psychological impact of perceived probability involved in accident\nDAP: Societal impact due to the directly affected public coming in contact with sound emissions\nIAP: Impact on people due to the environment being impacted by particle emissions such as carbon dioxide, nitrogen monoxide, sulfur dioxide, dust, etc.\nREMEMBER: pick stakeholders and impact that is significant, and quantifiable.\n\n\nAdey, B.T., Burkhalter, M., & Martani, C. (2020). Defining road service to facilitate road infrastructure asset management. Infrastructure Asset Management, 7(4), pp. 240-255."
   },
   {
     "objectID": "posts/01_defineObjectives/index.html#next-steps",
@@ -228,7 +228,7 @@
     "href": "posts/01_defineObjectives/index.html#thank-you-for-your-attention",
     "title": "Determine objective function and classify assets",
     "section": "Thank you for your attention!",
-    "text": "Thank you for your attention!\nQuestions?\n\n\n   Hamed Mehranfar Doctoral student hmehranfar@ethz.ch  ETH Zürich Institute of Construction and Infrastructure Management (IBI) Chair of Infrastructure Management HIL G 32.2, Stefano-Franscini-Platz 5 8093 Zürich\nwww.ibi.ethz.ch"
+    "text": "Thank you for your attention!\nQuestions?\n\n\n   Hamed Mehranfar Doctoral student hmehranfar@ethz.ch  ETH Zürich Institute of Construction and Infrastructure Management (IBI) Chair of Infrastructure Management HIL G 32.2, Stefano-Franscini-Platz 5 8093 Zürich\nwww.ibi.ethz.ch\n\n\n\n\t\n\n\n\t\n\t\t\n\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\n\t\n\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\n\t\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\n\t\n\n\n\n\n\n\n\n  \n    \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  Institut fürBau- und Infrastruktur-management"
   },
   {
     "objectID": "posts/02_CSdef&DetModeling/index.html#some-questions",
@@ -376,5 +376,159 @@
     "title": "Define condition classes and model deterioration",
     "section": "Next steps",
     "text": "Next steps\n\n\n\nToday:\n\nDefinition of the condition states\nModelling the gradual deterioration\n\n\n\n\nNext step:\n\nDefine possible interventions and strategies"
+  },
+  {
+    "objectID": "posts/03_IntStrategies/index.html#some-questions",
+    "href": "posts/03_IntStrategies/index.html#some-questions",
+    "title": "Define condition classes and model deterioration",
+    "section": "Some questions",
+    "text": "Some questions\n\n\n\nHow can we measure the deterioration?     \nHow fast do assets deteriorate?\n\n\n \n\n\n\n\n\n\nHow fast our assets are deteriorating?"
+  },
+  {
+    "objectID": "posts/03_IntStrategies/index.html#introduction-what-has-to-be-predicted",
+    "href": "posts/03_IntStrategies/index.html#introduction-what-has-to-be-predicted",
+    "title": "Define possible interventions and strategies",
+    "section": "Introduction – What has to be predicted?",
+    "text": "Introduction – What has to be predicted?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBridge type\nCS1\nCS2\nCS3\nCS4\nCS5\n\n\n\n\nReinforced concrete\nDo nothing\nDo nothing\nDo nothing\nRehabilitation\nReplacement\n\n\nPre-stressed concrete\nDo nothing\nDo nothing\nDo nothing\nRehabilitation\nReplacement\n\n\nMasonry\nDo nothing\nDo nothing\nDo nothing\nRehabilitation\nReplacement\n\n\nComposite\nDo nothing\nDo nothing\nDo nothing\nRenewal\nReplacement\n\n\nMetal\nDo nothing\nDo nothing\nDo nothing\nRenewal\nReplacement"
+  },
+  {
+    "objectID": "posts/03_IntStrategies/index.html#introduction-which-processes-do-you-want-to-consider",
+    "href": "posts/03_IntStrategies/index.html#introduction-which-processes-do-you-want-to-consider",
+    "title": "Define possible interventions and strategies",
+    "section": "Introduction – Which processes do you want to consider?",
+    "text": "Introduction – Which processes do you want to consider?\n\n\n\n\n\n\n\n\n\n\nIntervention\nDescription of activities\n\n\n\n\nDo nothing\n-\n\n\nRehabilitation\n- Replacement of waterproofing  - Restoration of parts of drainage system  - Improvement or replacement of construction joints  - Repair of the reinforced concrete  - Renewal of any finishing\n\n\nRenewal\n- Strengthening of one or more structural elements  - Renewal of the drainage system\n\n\nReplacement\n- Replacement of part or all of the structure\n\n\n\n\n\n\nActivities can affect only the future (e.g., waterproofing layer, application of a corrosion inhibitor which builds a protective layer on the reinforcement) Activities can affect the present and future (e.g., repair by adding new concrete layer)"
+  },
+  {
+    "objectID": "posts/03_IntStrategies/index.html#introduction-which-processes-do-you-want-to-consider-chloride-induced-corrosion-of-steel",
+    "href": "posts/03_IntStrategies/index.html#introduction-which-processes-do-you-want-to-consider-chloride-induced-corrosion-of-steel",
+    "title": "Define possible interventions and strategies",
+    "section": "Introduction – Which processes do you want to consider? Chloride induced corrosion of steel",
+    "text": "Introduction – Which processes do you want to consider? Chloride induced corrosion of steel"
+  },
+  {
+    "objectID": "posts/03_IntStrategies/index.html#introduction---are-you-predicting-state-or-service",
+    "href": "posts/03_IntStrategies/index.html#introduction---are-you-predicting-state-or-service",
+    "title": "Define possible interventions and strategies",
+    "section": "Introduction - Are you predicting state or service?",
+    "text": "Introduction - Are you predicting state or service?\n\n\n\n\n\n\n\n\n\n\n\n\n\nDeterioration process phases\nVisual condition indications\nTime\nProvided service\n\n\n\n\n1\nPenetration of water and de-icing salts into surface concrete\nNone\n1\n1\n\n\n2\nBreakdown of depassivation layer of top reinforcement\nNone\n2\n1\n\n\n3\nRusting of top reinforcement\nNone\n3\n1\n\n\n4\nCracking and spalling of surface concrete\nSmall pockmarks on the surface, often accompanied by a rust stain, and usually at a point corresponding to the location of a top reinforcing bar\n5\n1\n\n\n5\nShifting of the compressive zone in the concrete deck\nSpalling in multiple locations and some of these locations had significant amounts of exposed reinforcement  Uniformly spaced cracks on the underside of the slab, beneath spalled areas\n5\n1\n\n\n6\nOverstressing of the bottom reinforcement\nNo additional visual indications\n6\n1\n\n\n7\nCracking of the bottom concrete\nSpalling in numerous widely dispersed locations over relatively large areas, more intense under the truck lanes.\n7\n1\n\n\n8\nPunching failures\nSpalling in numerous widely dispersed locations over relatively large areas, extensive cracking was observed, two punching failures of the deck slab occurred\n8\n2\n\n\n9\nCollapse\n-\n?\n3"
+  },
+  {
+    "objectID": "posts/03_IntStrategies/index.html#which-states-do-we-want-to-use",
+    "href": "posts/03_IntStrategies/index.html#which-states-do-we-want-to-use",
+    "title": "Define possible interventions and strategies",
+    "section": "Which states do we want to use?",
+    "text": "Which states do we want to use?\n\n\n\n\n\n\n\n\n\n\n\n\nItem\nState\nCondition\nDescription of condition on entry\n\n\n\n\nDeck\n1\nGood\nno signs rust\n\n\n\n2\nAcceptable\nminor spots of rust and/or spalling and thin cracks less than 2.5 mm wide\n\n\n\n3\nDamaged\nmajor spots of rust and/or spalling and thin cracks\n\n\n\n4\nPoor\nmajor spots of rust and/or spalling and section loss of reinforcement less than 10%\n\n\n\n5\nAlarming\nsection loss of reinforcement more than 10%"
+  },
+  {
+    "objectID": "posts/03_IntStrategies/index.html#szu-example",
+    "href": "posts/03_IntStrategies/index.html#szu-example",
+    "title": "Define possible interventions and strategies",
+    "section": "SZU example",
+    "text": "SZU example"
+  },
+  {
+    "objectID": "posts/03_IntStrategies/index.html#how-do-we-estimate-transition-probabilities",
+    "href": "posts/03_IntStrategies/index.html#how-do-we-estimate-transition-probabilities",
+    "title": "Define possible interventions and strategies",
+    "section": "How do we estimate transition probabilities?",
+    "text": "How do we estimate transition probabilities?\n\n\n\n\n\n\n\n\n\nWith data With  expert  opinion With  deterministic  deterioration  model"
+  },
+  {
+    "objectID": "posts/03_IntStrategies/index.html#how-do-we-estimate-transition-probabilities-if-we-have-deterministic-models",
+    "href": "posts/03_IntStrategies/index.html#how-do-we-estimate-transition-probabilities-if-we-have-deterministic-models",
+    "title": "Define possible interventions and strategies",
+    "section": "How do we estimate transition probabilities if we have deterministic models?",
+    "text": "How do we estimate transition probabilities if we have deterministic models?\n\nMinimise the long-term difference between:\n\nthe state predicted using the deterministic model, i.e., \\(y(t)\\)\naverage state predicted using the transition probabilities, i.e., \\(\\bar y(t)\\)\n\n\n\\[\nZ = \\sum_t (y(t)-\\bar y(t))^2\n\\]"
+  },
+  {
+    "objectID": "posts/03_IntStrategies/index.html#how-do-we-estimate-transition-probabilities-if-we-have-deterministic-models-1",
+    "href": "posts/03_IntStrategies/index.html#how-do-we-estimate-transition-probabilities-if-we-have-deterministic-models-1",
+    "title": "Define possible interventions and strategies",
+    "section": "How do we estimate transition probabilities if we have deterministic models?",
+    "text": "How do we estimate transition probabilities if we have deterministic models?\n\n\n\nDeterministic model\n\n\\[\nC(t)=0.16\\cdot t+1\n\\] - Objective function\n\\[\nZ=\\sum_{t=1}^{T}(0.16\\cdot t-\\bar C(t))^2\n\\]\n\n\n\n\nTransition probabilities,i.e., Deterioration matrix\n\n\\[\nP = \\begin{bmatrix}\np_{11} & 1-p_{11} & 0 & 0 & 0 \\\\\n0 & p_{22} & 1-p_{22} & 0 & 0 \\\\\n0 & 0 & p_{33} & 1-p_{33} & 0 \\\\\n0 & 0 & 0 & p_{44} & 1-p_{44} \\\\\n0 & 0 & 0 & 0 & 1\n\\end{bmatrix}\n\\]\n\nCondition distribution at \\(t\\)\n\n\\[\nC(t)=C(0)\\cdot P^{t}\n\\] Therefore, the average condition state at \\(t\\):\n\\[\n\\bar C(t)=C(0) \\cdot P^{t} \\cdot S \\\\\nS^T=\\begin{pmatrix}  1 & 2 & 3 & 4 & 5 \\end{pmatrix}\n\\]\n\n\n\nDownload this template!"
+  },
+  {
+    "objectID": "posts/03_IntStrategies/index.html#how-do-we-estimate-transition-probabilities-for-objects-in-szu-network",
+    "href": "posts/03_IntStrategies/index.html#how-do-we-estimate-transition-probabilities-for-objects-in-szu-network",
+    "title": "Define possible interventions and strategies",
+    "section": "How do we estimate transition probabilities for objects in SZU network?",
+    "text": "How do we estimate transition probabilities for objects in SZU network?\n\n\nSensible categories\n\n\n\n\n\nflowchart TD\n    A[Bridge] --&gt;|Height| B[Over 700 m]\n    A --&gt;|Height| C[Under 700 m]\n    B --&gt;|Location| D[Urban]\n    B --&gt;|Location| E[Non-urban]\n    C --&gt;|Location| F[Urban]\n    C --&gt;|Location| G[Non-urban]\n    D --&gt;|Traffic| H[X&lt; per day]\n    D --&gt;|Traffic| L[&lt;=X per day]\n    E --&gt;|Traffic| I[X&lt; per day]\n    E --&gt;|Traffic| M[&lt;=X per day]\n    F --&gt;|Traffic| J[X&lt; per day]\n    F --&gt;|Traffic| N[&lt;=X per day]\n    G --&gt;|Traffic| K[X&lt; per day]\n    G --&gt;|Traffic| O[&lt;=X per day]"
+  },
+  {
+    "objectID": "posts/03_IntStrategies/index.html#next-steps",
+    "href": "posts/03_IntStrategies/index.html#next-steps",
+    "title": "Define possible interventions and strategies",
+    "section": "Next steps",
+    "text": "Next steps\n\n\n\nToday:\n\nDetermine at least two possible interventions\nEstimate intervention cost\n\n\n\n\nNext step:\n\nDetermine optimal intervention strategy (if there is enough time)\nMid-term presentation practice"
+  },
+  {
+    "objectID": "posts/03_IntStrategies/index.html#thank-you-for-your-attention",
+    "href": "posts/03_IntStrategies/index.html#thank-you-for-your-attention",
+    "title": "Define possible interventions and strategies",
+    "section": "Thank you for your attention!",
+    "text": "Thank you for your attention!\nQuestions?\n\n\n   Hamed Mehranfar Doctoral student hmehranfar@ethz.ch  ETH Zürich Institute of Construction and Infrastructure Management (IBI) Chair of Infrastructure Management HIL G 32.2, Stefano-Franscini-Platz 5 8093 Zürich\nwww.ibi.ethz.ch"
+  },
+  {
+    "objectID": "posts/03_IntStrategies/index.html#what-type-of-interventions-are-we-talking-about",
+    "href": "posts/03_IntStrategies/index.html#what-type-of-interventions-are-we-talking-about",
+    "title": "Define possible interventions and strategies",
+    "section": "What type of interventions are we talking about?",
+    "text": "What type of interventions are we talking about?\n\n\nMaintenance interventions\n\nAll activities that help to ensure that an object provides the level of service for which it was constructed.\n\nRoutine maintenance interventions\nRehabilitation interventions\nRenovation interventions\n\n\n\n\nDevelopment interventions\n\nAll activities that help to ensure that an object provides a new level of service.\n\nAdaptation interventions\nTransformation interventions\nExpansion interventions\n\n\n\n\n\nRoutine maintenance: Relatively small interventions that help prevent the occurrence of inadequate LOS due to deterioration. They are normally included in intervention strategies to be executed at regular time intervals.\nRehabilitation: Relatively large interventions that help prevent the occurrence of an inadequate LOS due to deterioration. They are normally included in intervention strategies to be executed when the item reaches a specific state.\nRenovation: Relatively large interventions that help prevent the occurrence of an adequate LOS due to deterioration, by restoring the item to a new or like new state. They are normally included in intervention strategies to be executed when the item reaches a specific state."
+  },
+  {
+    "objectID": "posts/03_IntStrategies/index.html#what",
+    "href": "posts/03_IntStrategies/index.html#what",
+    "title": "Define possible interventions and strategies",
+    "section": "What",
+    "text": "What\n\n\n\nHow can we measure the deterioration?     \nHow fast do assets deteriorate?\n\n\n \n\n\n\n\n\n\nHow fast our assets are deteriorating?"
+  },
+  {
+    "objectID": "posts/03_IntStrategies/index.html#intervention-strategies-and-intervention-programs",
+    "href": "posts/03_IntStrategies/index.html#intervention-strategies-and-intervention-programs",
+    "title": "Define possible interventions and strategies",
+    "section": "Intervention strategies and intervention programs",
+    "text": "Intervention strategies and intervention programs\n\n\n\n\nIntervention strategies\n\nInclude all interventions to be executed on an item taking into consideration of all possible conditions of the item\nAre developed without consideration of other sub-items, items or super-items\n\n\nIntervention programs\n\nInclude the interventions to be executed on items taking into consideration the specific conditions of the items\nAre developed with or without consideration of the other sub-items, items, or super-items\n\n\n\n\n\n\nThe interventions on an item include all interventions on the sub-items of the item.\nThe conditions of the item include the conditions of the sub-items of the item."
+  },
+  {
+    "objectID": "posts/03_IntStrategies/index.html#intervention-strategies-example",
+    "href": "posts/03_IntStrategies/index.html#intervention-strategies-example",
+    "title": "Define possible interventions and strategies",
+    "section": "Intervention strategies example",
+    "text": "Intervention strategies example\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBridge type\nCS1\nCS2\nCS3\nCS4\nCS5\n\n\n\n\nReinforced concrete\nDo nothing\nDo nothing\nDo nothing\nRehabilitation\nReplacement\n\n\nPre-stressed concrete\nDo nothing\nDo nothing\nDo nothing\nRehabilitation\nReplacement\n\n\nMasonry\nDo nothing\nDo nothing\nDo nothing\nRehabilitation\nReplacement\n\n\nComposite\nDo nothing\nDo nothing\nRehabilitation\nRenewal\nReplacement\n\n\nMetal\nDo nothing\nDo nothing\nRehabilitation\nRenewal\nReplacement"
+  },
+  {
+    "objectID": "posts/03_IntStrategies/index.html#interventions-in-relation-to-condition-state",
+    "href": "posts/03_IntStrategies/index.html#interventions-in-relation-to-condition-state",
+    "title": "Define possible interventions and strategies",
+    "section": "Interventions in relation to condition state",
+    "text": "Interventions in relation to condition state\n\n\n\n\n\n\n\n\n\n\n\nCS\nGeneral description\nGeneral description of damage\nValues of damage indicators\n\n\n\n\n1\nGood\nNone/Insignificant\nConcrete elements: Small superficial cracks, no indication of corrosion, no or few humid zones  Bearings: No indication of corrosion or damage\n\n\n2\nAcceptable\nMinor\nConcrete elements: Small cracks due to the corrosion of the reinforcement, some rust spots, some humid zones but no leaching of the concrete  Bearings: Some indication of corrosion or damage\n\n\n3\nDamaged\nSignificant\nConcrete elements: Some calcium deposits along concrete cracks, some spalling of concrete with less than 10% of reinforcement exposed, insignificant loss of cross section area of the reinforcement, humid zones with leaching of the concrete  Bearings: Medium amount of corrosion and damage\n\n\n4\nPoor\nExtensive\nConcrete elements: Significant calcium deposits along concrete cracks, spalling of concrete with less than 25% of exposed reinforcement, occurrence of pitting corrosion, large humid zones with leaching of concrete  Bearings: Significant corrosion, including corroded support plates and anchoring connections\n\n\n5\nAlarming\nSafety is endangered\nConcrete elements: Extensive spalling of concrete with more than 25% of exposed reinforcement, significant loss of cross sectional area of the reinforcement, advanced pitting corrosion occurring, large humid zones with leaching of concrete  Bearings: Advanced corrosion, seized bearings, anchoring connections heavily deteriorated\n\n\n\n\n\n\nActivities can affect only the future (e.g., waterproofing layer, application of a corrosion inhibitor which builds a protective layer on the reinforcement) Activities can affect the present and future (e.g., repair by adding new concrete layer)"
+  },
+  {
+    "objectID": "posts/03_IntStrategies/index.html#connect-interventions-and-states-to-service",
+    "href": "posts/03_IntStrategies/index.html#connect-interventions-and-states-to-service",
+    "title": "Define possible interventions and strategies",
+    "section": "Connect interventions and states to service",
+    "text": "Connect interventions and states to service\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEffectiveness vectors\n\nMaintenance\n\ncosts\n\nTravel time costs\n\nAccident costs\n\n\n\n\n\nIntervention\n\n$CS_1$\n\n$CS_2$\n\n$CS_3$\n\n$CS_4$\n\n\n\n$CS_1$\n\nDo nothing\n\nSame as the deterioration trans. probs.\n\n0\n\n0\n\n\n\n$CS_2$\n\nDo nothing\n\nSame as the deterioration trans. probs.\n\n10\n\n0\n\n\n\n$CS_3$\n\nDo nothing\n\nSame as the deterioration trans. probs.\n\n50\n\n0\n\n\n\nRehabilitation\n\n0.8\n\n0.2\n\n0\n\n0\n\n\n\nReplacement\n\n1\n\n0\n\n0\n\n0\n\n\n\n$CS_4$\n\nDo nothing\n\nSame as the deterioration trans. probs.\n\n100\n\n100\n\n\n\nRehabilitation\n\n0.75\n\n0.25\n\n0\n\n0\n\n\n\nReplacement\n\n1\n\n0\n\n0\n\n0\n\n\n\n$CS_5$\n\nDo nothing\n\nSame as the deterioration trans. probs.\n\n500\n\n500\n\n\n\nRehabilitation\n\n0.6\n\n0.4\n\n0\n\n0\n\n\n\nReplacement\n\n1\n\n0\n\n0\n\n0"
+  },
+  {
+    "objectID": "posts/03_IntStrategies/index.html#how-to-evaluate-possible-maintenance-intervention-strategies",
+    "href": "posts/03_IntStrategies/index.html#how-to-evaluate-possible-maintenance-intervention-strategies",
+    "title": "Define possible interventions and strategies",
+    "section": "How to evaluate possible maintenance intervention strategies",
+    "text": "How to evaluate possible maintenance intervention strategies\n\n\n\n\n\n\n\n\n\n\nStep\nDescription\n\n\n\n\n1\nEstimate the state of each object at \\(t = 0\\)\n\n\n2\nDetermine the maintenance intervention strategy to be considered\n\n\n3\nDetermine the steady state probabilities\n\n\n4\nDetermine the costs associated with the steady state\n\n\n5\nGenerate the view of how the condition and the costs evolve over time\n\n\n6\nRepeat steps 2-6 for all maintenance intervention strategies\n\n\n7\nCompare the results of each of the maintenance intervention strategies with respect to your goals and constraints"
+  },
+  {
+    "objectID": "posts/03_IntStrategies/index.html#test",
+    "href": "posts/03_IntStrategies/index.html#test",
+    "title": "Define possible interventions and strategies",
+    "section": "Test",
+    "text": "Test\n\n\n\n\n\n\n\nflowchart TB\n    step1[Step 1: Estimate the state of each object at t=0]\n    step2[Step 2: Determine the maintenance intervention strategy]\n    step3[Step 3: Determine the steady state probabilities]\n    step4[Step 4: Determine the costs associated with the steady state]\n    step5[Step 5: Generate the view of condition and costs over time]\n    step6[Step 6: Repeat steps 2-5 for all strategies]\n    step7[Step 7: Compare results with goals and constraints]\n\n    step1 --&gt; step2\n    step2 --&gt; step3\n    step3 --&gt; step4\n    step4 --&gt; step5\n    step5 --&gt; step6\n    step6 --&gt; step7"
+  },
+  {
+    "objectID": "posts/03_IntStrategies/index.html#how-to-evaluate-possible-maintenance-intervention-strategies-1",
+    "href": "posts/03_IntStrategies/index.html#how-to-evaluate-possible-maintenance-intervention-strategies-1",
+    "title": "Define possible interventions and strategies",
+    "section": "How to evaluate possible maintenance intervention strategies",
+    "text": "How to evaluate possible maintenance intervention strategies\n\n\n\n\n\n\n\nflowchart TB\n    step1[Step 1: Estimate the state of each object at t=0]\n    step2[Step 2: Determine the maintenance intervention strategy]\n    step3[Step 3: Determine the steady state probabilities]\n    step4[Step 4: Determine the costs associated with the steady state]\n    step5[Step 5: Generate the view of condition and costs over time]\n    step6[Step 6: Repeat steps 2-5 for all strategies]\n    step7[Step 7: Compare results with goals and constraints]\n\n    step1 --&gt; step2\n    step2 --&gt; step3\n    step3 --&gt; step4\n    step4 --&gt; step5\n    step5 --&gt; step6\n    step6 --&gt; step7"
   }
 ]
