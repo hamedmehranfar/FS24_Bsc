@@ -615,239 +615,151 @@ Yushu An
 <section id="connect-interventions-and-states-to-service" class="slide level2">
 <h2>Connect interventions and states to service</h2>
 <div class="columns">
-<div class="column" style="width: 100%; font-size: 60%;">
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-spacing:0;}
-.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;
-  padding:10px 5px;word-break:normal;}
-.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-eq12{border-color:#333333;font-size:small;text-align:left;vertical-align:middle}
-.tg .tg-x10n{border-color:#333333;font-size:small;text-align:left;vertical-align:middle}
-</style>
-<table style="width:98%;">
+<div class="column" style="width: 100%; font-size: 45%;">
+<table style="width:95%;">
 <colgroup>
-<col style="width: 12%">
-<col style="width: 20%">
-<col style="width: 31%">
-<col style="width: 17%">
+<col style="width: 4%">
+<col style="width: 13%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 5%">
+<col style="width: 5%">
+<col style="width: 5%">
 <col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 13%">
 </colgroup>
-<thead>
-<tr class="header">
-<th></th>
-<th><br>
-<strong>Effectiveness vectors</strong></th>
-<th><br>
-<strong>Maintenance</strong><br>
-<br>
-<strong>costs</strong></th>
-<th><br>
-<strong>Travel time costs</strong></th>
-<th><br>
-<strong>Accident costs</strong></th>
-</tr>
-</thead>
 <tbody>
 <tr class="odd">
-<td><br>
-Intervention</td>
-<td><br>
-$CS_1$</td>
-<td><br>
-$CS_2$</td>
-<td><br>
-$CS_3$</td>
-<td><br>
-$CS_4$</td>
+<td rowspan="2"><strong>CS</strong></td>
+<td rowspan="2"><strong>Intervention</strong></td>
+<td colspan="5"><strong>Effectiveness vectors</strong></td>
+<td><strong>Maintenance costs</strong></td>
+<td><strong>Travel time costs</strong></td>
+<td><strong>Accident costs</strong></td>
 </tr>
 <tr class="even">
-<td><br>
-$CS_1$</td>
-<td><br>
-Do nothing</td>
-<td><br>
-Same as the deterioration trans. probs.</td>
-<td><br>
-0</td>
-<td><br>
-0</td>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+<td>4</td>
+<td>5</td>
+<td><span class="math inline">\(mu/m^2\)</span></td>
+<td><span class="math inline">\(mu/m^2\)</span></td>
+<td><span class="math inline">\(mu/m^2\)</span></td>
 </tr>
-<tr class="odd">
-<td><br>
-$CS_2$</td>
-<td><br>
-Do nothing</td>
-<td><br>
-Same as the deterioration trans. probs.</td>
-<td><br>
-10</td>
-<td><br>
-0</td>
-</tr>
-<tr class="even">
-<td><br>
-$CS_3$</td>
-<td><br>
-Do nothing</td>
-<td><br>
-Same as the deterioration trans. probs.</td>
-<td><br>
-50</td>
-<td><br>
-0</td>
-</tr>
-<tr class="odd">
-<td><br>
-Rehabilitation</td>
-<td><br>
-0.8</td>
-<td><br>
-0.2</td>
-<td><br>
-0</td>
-<td><br>
-0</td>
-</tr>
-<tr class="even">
-<td><br>
-Replacement</td>
-<td><br>
-1</td>
-<td><br>
-0</td>
-<td><br>
-0</td>
-<td><br>
-0</td>
-</tr>
-<tr class="odd">
-<td><br>
-$CS_4$</td>
-<td><br>
-Do nothing</td>
-<td><br>
-Same as the deterioration trans. probs.</td>
-<td><br>
-100</td>
-<td><br>
-100</td>
-</tr>
-<tr class="even">
-<td><br>
-Rehabilitation</td>
-<td><br>
-0.75</td>
-<td><br>
-0.25</td>
-<td><br>
-0</td>
-<td><br>
-0</td>
-</tr>
-<tr class="odd">
-<td><br>
-Replacement</td>
-<td><br>
-1</td>
-<td><br>
-0</td>
-<td><br>
-0</td>
-<td><br>
-0</td>
-</tr>
-<tr class="even">
-<td><br>
-$CS_5$</td>
-<td><br>
-Do nothing</td>
-<td><br>
-Same as the deterioration trans. probs.</td>
-<td><br>
-500</td>
-<td><br>
-500</td>
-</tr>
-<tr class="odd">
-<td><br>
-Rehabilitation</td>
-<td><br>
-0.6</td>
-<td><br>
-0.4</td>
-<td><br>
-0</td>
-<td><br>
-0</td>
-</tr>
-<tr class="even">
-<td><br>
-Replacement</td>
-<td><br>
-1</td>
-<td><br>
-0</td>
-<td><br>
-0</td>
-<td><br>
-0</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</section>
-<section id="how-to-evaluate-possible-maintenance-intervention-strategies" class="slide level2">
-<h2>How to evaluate possible maintenance intervention strategies</h2>
-<p><br></p>
-<div class="columns">
-<div class="column" style="width: 100%; font-size: 70%;">
-<table>
-<colgroup>
-<col style="width: 8%">
-<col style="width: 91%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Step</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
 <tr class="odd">
 <td>1</td>
-<td>Estimate the state of each object at <span class="math inline">\(t = 0\)</span></td>
+<td>Do nothing</td>
+<td colspan="5">Same as the deterioration trans. probs.</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
 </tr>
 <tr class="even">
 <td>2</td>
-<td>Determine the maintenance intervention strategy to be considered</td>
+<td>Do nothing</td>
+<td colspan="5">Same as the deterioration trans. probs.</td>
+<td>10</td>
+<td>0</td>
+<td>0</td>
 </tr>
 <tr class="odd">
-<td>3</td>
-<td>Determine the steady state probabilities</td>
+<td rowspan="3">3</td>
+<td>Do nothing</td>
+<td colspan="5">Same as the deterioration trans. probs.</td>
+<td>50</td>
+<td>0</td>
+<td>0</td>
 </tr>
 <tr class="even">
-<td>4</td>
-<td>Determine the costs associated with the steady state</td>
+<td>Rehabilitation</td>
+<td>0.8</td>
+<td>0.2</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>500</td>
+<td>1’000</td>
+<td>40</td>
 </tr>
 <tr class="odd">
-<td>5</td>
-<td>Generate the view of how the condition and the costs evolve over time</td>
+<td>Replacement</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>3’500</td>
+<td>3’000</td>
+<td>10</td>
 </tr>
 <tr class="even">
-<td>6</td>
-<td>Repeat steps 2-6 for all maintenance intervention strategies</td>
+<td rowspan="3">4</td>
+<td>Do nothing</td>
+<td colspan="5">Same as the deterioration trans. probs.</td>
+<td>100</td>
+<td>100</td>
+<td>50</td>
 </tr>
 <tr class="odd">
-<td>7</td>
-<td>Compare the results of each of the maintenance intervention strategies with respect to your goals and constraints</td>
+<td>Rehabilitation</td>
+<td>0.75</td>
+<td>0.25</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>550</td>
+<td>1’100</td>
+<td>45</td>
+</tr>
+<tr class="even">
+<td>Replacement</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>3’500</td>
+<td>3’000</td>
+<td>10</td>
+</tr>
+<tr class="odd">
+<td rowspan="3">5</td>
+<td>Do nothing</td>
+<td colspan="5">Same as the deterioration trans. probs.</td>
+<td>500</td>
+<td>500</td>
+<td>100</td>
+</tr>
+<tr class="even">
+<td>Rehabilitation</td>
+<td>0.6</td>
+<td>0.4</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>750</td>
+<td>1500</td>
+<td>75</td>
+</tr>
+<tr class="odd">
+<td>Replacement</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>3’500</td>
+<td>3’000</td>
+<td>10</td>
 </tr>
 </tbody>
 </table>
 </div>
 </div>
 </section>
+
 <section class="slide level2">
 
 <h3 id="how-to-evaluate-possible-maintenance-intervention-strategies-1">How to evaluate possible maintenance intervention strategies</h3>
