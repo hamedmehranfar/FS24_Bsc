@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/04_OptimStrategies/index.html",
       "/posts/03_IntStrategies/index.html",
       "/posts/02_CSdef&DetModeling/index.html",
       "/posts/01_defineObjectives/index.html"

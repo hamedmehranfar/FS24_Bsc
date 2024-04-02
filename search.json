@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Estimation of financial needs and condition of infrastructure objects",
     "section": "",
-    "text": "Problem statement\nProper management of infrastructure requires forecasting the condition of infrastructure assets and the level of funding required to ensure that they provide an adequate level of service, with due consideration of the associated uncertainties. In this project, you will make these estimates for the railway infrastructure network of the SZU. You will estimate how the condition of the existing network will change over the next 50 years, propose possible infrastructure interventions to maintain an adequate level of service, and estimate the cost of these interventions. In this project you will learn to:\n\nOrganize the available data of an infrastructure network,\nEvaluate the impact of individual objects on the overall level of service,\nDevelop models for the condition of individual objects, as well as how they change over time, and\nDevelop and evaluate interventions for infrastructure networks considering data uncertainty.\n\nHere we upload the slides related to each weekly meeting according to the Figure 1.\n\n\n\n\n\n\ngantt\n    title Thesis timeline\n    dateFormat  YYYY-MM-DD\n    section Initialisation\n    Kick-off meeting : milestone, a1, 2024-02-26, 1d\n    \n    section Work in progress\n    Determine objective functions and classify assets :done a1, 2024-03-05,5d\n    Define condition classes and model deterioration : 6d\n    Determine possible interventions & strategies : 12d\n    Estimate cost of interventions and their impacts : 12d\n    Interim presentation :crit, 2024-04-08, 1d\n    Determine optimal interventioin strategy : 14d\n    Develop intervention program : 21d\n    Review results and any assumptions : 14d\n    Final presentation :crit, 2024-05-27, 1d\n    \n    section Finalisation\n    Document work incl. meeting minutes, final report, etc. :active a2,  2024-03-04, 12w\n    Material submission : milestone, 2024-05-31, 1d\n    \n\n\n\n\nFigure 1: The timeline for accomplishing the thesis.\n\n\n\n\n\nTopics \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDefine possible interventions and strategies\n\n\nEstimation of financial needs and condition of infrastructure assets\n\n\n\nWeek5\n\n\n\n\n\n\n\n\n\nMar 25, 2024\n\n\nHamed Mehranfar, Yushu An\n\n\n\n\n\n\n\n\n\n\n\n\nDefine condition classes and model deterioration\n\n\nEstimation of financial needs and condition of infrastructure assets\n\n\n\nWeek3\n\n\n\n\n\n\n\n\n\nMar 11, 2024\n\n\nHamed Mehranfar, Yushu An\n\n\n\n\n\n\n\n\n\n\n\n\nDetermine objective function and classify assets\n\n\nEstimation of financial needs and condition of infrastructure assets\n\n\n\nWeek2\n\n\n\n\n\n\n\n\n\nMar 5, 2024\n\n\nHamed Mehranfar, Yushu An\n\n\n\n\n\n\nNo matching items"
+    "text": "Problem statement\nProper management of infrastructure requires forecasting the condition of infrastructure assets and the level of funding required to ensure that they provide an adequate level of service, with due consideration of the associated uncertainties. In this project, you will make these estimates for the railway infrastructure network of the SZU. You will estimate how the condition of the existing network will change over the next 50 years, propose possible infrastructure interventions to maintain an adequate level of service, and estimate the cost of these interventions. In this project you will learn to:\n\nOrganize the available data of an infrastructure network,\nEvaluate the impact of individual objects on the overall level of service,\nDevelop models for the condition of individual objects, as well as how they change over time, and\nDevelop and evaluate interventions for infrastructure networks considering data uncertainty.\n\nHere we upload the slides related to each weekly meeting according to the Figure 1.\n\n\n\n\n\n\ngantt\n    title Thesis timeline\n    dateFormat  YYYY-MM-DD\n    section Initialisation\n    Kick-off meeting : milestone, a1, 2024-02-26, 1d\n    \n    section Work in progress\n    Determine objective functions and classify assets :done a1, 2024-03-05,5d\n    Define condition classes and model deterioration : 6d\n    Determine possible interventions & strategies : 12d\n    Estimate cost of interventions and their impacts : 12d\n    Interim presentation :crit, 2024-04-08, 1d\n    Determine optimal interventioin strategy : 14d\n    Develop intervention program : 21d\n    Review results and any assumptions : 14d\n    Final presentation :crit, 2024-05-27, 1d\n    \n    section Finalisation\n    Document work incl. meeting minutes, final report, etc. :active a2,  2024-03-04, 12w\n    Material submission : milestone, 2024-05-31, 1d\n    \n\n\n\n\nFigure 1: The timeline for accomplishing the thesis.\n\n\n\n\n\nTopics \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDetermine optimal interventions strategies\n\n\nEstimation of financial needs and condition of infrastructure assets\n\n\n\nWeek8\n\n\n\n\n\n\n\n\n\nApr 15, 2024\n\n\nHamed Mehranfar, Yushu An\n\n\n\n\n\n\n\n\n\n\n\n\nDefine possible interventions and strategies\n\n\nEstimation of financial needs and condition of infrastructure assets\n\n\n\nWeek5\n\n\n\n\n\n\n\n\n\nMar 25, 2024\n\n\nHamed Mehranfar, Yushu An\n\n\n\n\n\n\n\n\n\n\n\n\nDefine condition classes and model deterioration\n\n\nEstimation of financial needs and condition of infrastructure assets\n\n\n\nWeek3\n\n\n\n\n\n\n\n\n\nMar 11, 2024\n\n\nHamed Mehranfar, Yushu An\n\n\n\n\n\n\n\n\n\n\n\n\nDetermine objective function and classify assets\n\n\nEstimation of financial needs and condition of infrastructure assets\n\n\n\nWeek2\n\n\n\n\n\n\n\n\n\nMar 5, 2024\n\n\nHamed Mehranfar, Yushu An\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -530,5 +530,215 @@
     "title": "Define possible interventions and strategies",
     "section": "How to evaluate possible maintenance intervention strategies",
     "text": "How to evaluate possible maintenance intervention strategies\n\n\n\n\n\n\n\nflowchart TB\n    step1[Step 1: Estimate the state of each object at t=0]\n    step2[Step 2: Determine the maintenance intervention strategy]\n    step3[Step 3: Determine the steady state probabilities]\n    step4[Step 4: Determine the costs associated with the steady state]\n    step5[Step 5: Generate the view of condition and costs over time]\n    step6[Step 6: Repeat steps 2-5 for all strategies]\n    step7[Step 7: Compare results with goals and constraints]\n\n    step1 --&gt; step2\n    step2 --&gt; step3\n    step3 --&gt; step4\n    step4 --&gt; step5\n    step5 --&gt; step6\n    step6 --&gt; step7"
+  },
+  {
+    "objectID": "posts/04_OptimStrategies/index.html#what-type-of-interventions-are-we-talking-about",
+    "href": "posts/04_OptimStrategies/index.html#what-type-of-interventions-are-we-talking-about",
+    "title": "Determine optimal interventions strategies",
+    "section": "What type of interventions are we talking about?",
+    "text": "What type of interventions are we talking about?\n\n\nMaintenance interventions\n\nAll activities that help to ensure that an object provides the level of service for which it was constructed.\n\nRoutine maintenance interventions\nRehabilitation interventions\n\n\n\n\nDevelopment interventions\n\nAll activities that help to ensure that an object provides a new level of service.\n\nAdaptation interventions\nTransformation interventions\nExpansion interventions"
+  },
+  {
+    "objectID": "posts/04_OptimStrategies/index.html#thank-you-for-your-attention",
+    "href": "posts/04_OptimStrategies/index.html#thank-you-for-your-attention",
+    "title": "Determine optimal interventions strategies",
+    "section": "Thank you for your attention!",
+    "text": "Thank you for your attention!\nQuestions?\n\n\n   Hamed Mehranfar Doctoral student hmehranfar@ethz.ch  ETH Zürich Institute of Construction and Infrastructure Management (IBI) Chair of Infrastructure Management HIL G 32.2, Stefano-Franscini-Platz 5 8093 Zürich\nwww.ibi.ethz.ch"
+  },
+  {
+    "objectID": "posts/04_OptimStrategies/index.html",
+    "href": "posts/04_OptimStrategies/index.html",
+    "title": "Determine optimal interventions strategies",
+    "section": "",
+    "text": "Maintenance interventions\n\nAll activities that help to ensure that an object provides the level of service for which it was constructed.\n\nRoutine maintenance interventions\nRehabilitation interventions\n\n\n\n\nDevelopment interventions\n\nAll activities that help to ensure that an object provides a new level of service.\n\nAdaptation interventions\nTransformation interventions\nExpansion interventions"
+  },
+  {
+    "objectID": "posts/04_OptimStrategies/index.html#how-to-evaluate-possible-maintenance-intervention-strategies",
+    "href": "posts/04_OptimStrategies/index.html#how-to-evaluate-possible-maintenance-intervention-strategies",
+    "title": "Determine optimal interventions strategies",
+    "section": "How to evaluate possible maintenance intervention strategies",
+    "text": "How to evaluate possible maintenance intervention strategies\n\n\n\n\n\n\n\nflowchart TB\n    step1[&lt;font size=2&gt;Step 1: Estimate the state of each asset type at t=0]\n    step2[&lt;font size=2&gt;Step 2: Determine the maintenance intervention strategy]\n    step3[&lt;font size=2&gt;Step 3: Determine the steady state probabilities]\n    step4[&lt;font size=2&gt;Step 4: Determine the costs associated with the steady state]\n    step5[&lt;font size=2&gt;Step 5: Generate the view of condition and costs over time]\n    step6[&lt;font size=2&gt;Step 6: Repeat steps 2-5 for all strategies]\n    step7[&lt;font size=2&gt;Step 7: Compare results with goals and constraints]\n\n    step1 --&gt; step2\n    step2 --&gt; step3\n    step3 --&gt; step4\n    step4 --&gt; step5\n    step5 --&gt; step6\n    step6 --&gt; step7"
+  },
+  {
+    "objectID": "posts/04_OptimStrategies/index.html#step-1",
+    "href": "posts/04_OptimStrategies/index.html#step-1",
+    "title": "Determine optimal interventions strategies",
+    "section": "Step 1",
+    "text": "Step 1\nEstimate the state of each asset type at \\(t=0\\)\n\n\n\nExample: Reinforced concrete bridges, in terms of surface area per state.\n\n\n\n\n\nCS1\nCS2\nCS3\nCS4\nCS5\nTotal\n\n\n\n\n6’878\n4’149\n3’186\n2’570\n0\n16’782"
+  },
+  {
+    "objectID": "posts/04_OptimStrategies/index.html#section",
+    "href": "posts/04_OptimStrategies/index.html#section",
+    "title": "Determine optimal interventions strategies",
+    "section": "",
+    "text": "Steady State Probabilites: \\[\n\\lim_{n \\rightarrow \\infty} p_{ij}^n = \\pi_j \\quad ; \\quad \\pi_j \\geq 0 \\quad\\textbf{&} \\quad \\sum_{k=1}^{K} \\pi_j =1\n\\] ## {auto-animate=“true”} Steady states are derermined using the follownig formula: \\[\n\\pi_j = \\sum_{k=1}^{K} \\pi_i \\cdot p_{ij} \\qquad \\forall\\quad j=1,2,3,\\cdots,k \\quad\\backepsilon \\sum_{k=1}^{K}=1\n\\]"
+  },
+  {
+    "objectID": "posts/04_OptimStrategies/index.html#step-1-12",
+    "href": "posts/04_OptimStrategies/index.html#step-1-12",
+    "title": "Determine optimal interventions strategies",
+    "section": "Step 1 (1/2)",
+    "text": "Step 1 (1/2)\nEstimate the state of each asset type at \\(t=0\\)\n\n\n\nExample: Reinforced concrete bridges, in terms of surface area per state.\n\n\n\n\n\nCS1\nCS2\nCS3\nCS4\nCS5\nTotal\n\n\n\n\n6’878\n4’149\n3’186\n2’570\n0\n16’782"
+  },
+  {
+    "objectID": "posts/04_OptimStrategies/index.html#step-1-22",
+    "href": "posts/04_OptimStrategies/index.html#step-1-22",
+    "title": "Determine optimal interventions strategies",
+    "section": "Step 1 (2/2)",
+    "text": "Step 1 (2/2)\nEstimate the state of each asset type at \\(t=0\\)\n\n\n\nOnce you know the objects you are considering, you can also determine their deterioration transition matrix\n\n\n\n\n\n\n\n\n\n\n\n\\(CS^{t}\\)\n\\(CS^{t+1}\\)\n\n\n1\n2\n3\n4\n5\n\n\n1\n0.956\n0.044\n0\n0\n0\n\n\n2\n0\n0.968\n0.032\n0\n0\n\n\n3\n0\n0\n0.956\n0.044\n0\n\n\n4\n0\n0\n0\n0.944\n0.056\n\n\n5\n0\n0\n0\n0\n1"
+  },
+  {
+    "objectID": "posts/04_OptimStrategies/index.html#step-2-12",
+    "href": "posts/04_OptimStrategies/index.html#step-2-12",
+    "title": "Determine optimal interventions strategies",
+    "section": "Step 2 (1/2)",
+    "text": "Step 2 (1/2)\nDetermine the maintenance intervention strategy to be considered\n\n\n\nConsider the maintenance intervention strategies as follows:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIS\nCS1\nCS2\nCS3\nCS4\nCS5\n\n\n\n\n1\nDo nothing\nDo nothing\nDo nothing\nRehabilitation\nReplacement\n\n\n2\nDo nothing\nDo nothing\nDo nothing\nDo nothing\nReplacement"
+  },
+  {
+    "objectID": "posts/04_OptimStrategies/index.html#step-2-22",
+    "href": "posts/04_OptimStrategies/index.html#step-2-22",
+    "title": "Determine optimal interventions strategies",
+    "section": "Step 2 (2/2)",
+    "text": "Step 2 (2/2)\nDetermine the maintenance intervention strategy to be considered\n\n\nIn connection to the effectiveness vectors and unit costs of interventions\n\n\n\n\nCS\n\n\nInterventions\n\n\nCS\n\n\nMaintenance unit  costs (\\(mu/m^2\\))\n\n\nTravel time unit  costs (\\(mu/m^2\\))\n\n\nAccident unit  costs (\\(mu/m^2\\))\n\n\n\n\n1\n\n\n2\n\n\n3\n\n\n4\n\n\n5\n\n\n\n\n\n\n1\n\n\nDo nothing\n\n\n0.96\n\n\n0.04\n\n\n0\n\n\n0\n\n\n0\n\n\n0\n\n\n0\n\n\n0\n\n\n\n\n2\n\n\nDo nothing\n\n\n0\n\n\n0.97\n\n\n0.03\n\n\n0\n\n\n0\n\n\n10\n\n\n0\n\n\n0\n\n\n\n\n3\n\n\nDo nothing\n\n\n0\n\n\n0\n\n\n0.96\n\n\n0.04\n\n\n0\n\n\n50\n\n\n0\n\n\n0\n\n\n\n\n4\n\n\nDo nothing\n\n\n0\n\n\n0\n\n\n0\n\n\n0.94\n\n\n0.06\n\n\n100\n\n\n1000\n\n\n100\n\n\n\n\nRehabilitation\n\n\n0.75\n\n\n0.25\n\n\n0\n\n\n0\n\n\n0\n\n\n1000\n\n\n2000\n\n\n200\n\n\n\n\nReplacement\n\n\n1\n\n\n0\n\n\n0\n\n\n0\n\n\n0\n\n\n3500\n\n\n5000\n\n\n500\n\n\n\n\n5\n\n\nReplacement\n\n\n1\n\n\n0\n\n\n0\n\n\n0\n\n\n0\n\n\n3500\n\n\n5000\n\n\n500"
+  },
+  {
+    "objectID": "posts/04_OptimStrategies/index.html#step-2-13",
+    "href": "posts/04_OptimStrategies/index.html#step-2-13",
+    "title": "Determine optimal interventions strategies",
+    "section": "Step 2 (1/3)",
+    "text": "Step 2 (1/3)\nDetermine the maintenance intervention strategy to be considered\n\n\n\nConsider the maintenance intervention strategies as follows:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIS\nCS1\nCS2\nCS3\nCS4\nCS5\n\n\n\n\n1\nDo nothing\nDo nothing\nDo nothing\nRehabilitation\nReplacement\n\n\n2\nDo nothing\nDo nothing\nDo nothing\nDo nothing\nReplacement"
+  },
+  {
+    "objectID": "posts/04_OptimStrategies/index.html#step-2-23",
+    "href": "posts/04_OptimStrategies/index.html#step-2-23",
+    "title": "Determine optimal interventions strategies",
+    "section": "Step 2 (2/3)",
+    "text": "Step 2 (2/3)\nDetermine the maintenance intervention strategy to be considered\n\n\nIn connection to the effectiveness vectors and unit costs of interventions\n\n\n\n\nCS\n\n\nInterventions\n\n\nCS\n\n\nMaintenance unit  costs (\\(mu/m^2\\))\n\n\nTravel time unit  costs (\\(mu/m^2\\))\n\n\nAccident unit  costs (\\(mu/m^2\\))\n\n\n\n\n1\n\n\n2\n\n\n3\n\n\n4\n\n\n5\n\n\n\n\n\n\n1\n\n\nDo nothing\n\n\n0.96\n\n\n0.04\n\n\n0\n\n\n0\n\n\n0\n\n\n0\n\n\n0\n\n\n0\n\n\n\n\n2\n\n\nDo nothing\n\n\n0\n\n\n0.97\n\n\n0.03\n\n\n0\n\n\n0\n\n\n10\n\n\n0\n\n\n0\n\n\n\n\n3\n\n\nDo nothing\n\n\n0\n\n\n0\n\n\n0.96\n\n\n0.04\n\n\n0\n\n\n50\n\n\n0\n\n\n0\n\n\n\n\n4\n\n\nDo nothing\n\n\n0\n\n\n0\n\n\n0\n\n\n0.94\n\n\n0.06\n\n\n100\n\n\n1000\n\n\n100\n\n\n\n\nRehabilitation\n\n\n0.75\n\n\n0.25\n\n\n0\n\n\n0\n\n\n0\n\n\n1000\n\n\n2000\n\n\n200\n\n\n\n\nReplacement\n\n\n1\n\n\n0\n\n\n0\n\n\n0\n\n\n0\n\n\n3500\n\n\n5000\n\n\n500\n\n\n\n\n5\n\n\nReplacement\n\n\n1\n\n\n0\n\n\n0\n\n\n0\n\n\n0\n\n\n3500\n\n\n5000\n\n\n500"
+  },
+  {
+    "objectID": "posts/04_OptimStrategies/index.html#step-2-33",
+    "href": "posts/04_OptimStrategies/index.html#step-2-33",
+    "title": "Determine optimal interventions strategies",
+    "section": "Step 2 (3/3)",
+    "text": "Step 2 (3/3)\nDetermine the maintenance intervention strategy to be considered\n\n\nTranslation into the deterioration-intervention matrices\n\n\n\nCS\n1\n2\n3\n4\n5\n\n\n\n\n1\n0.96\n0.4\n0\n0\n0\n\n\n2\n0\n0.97\n0.03\n0\n0\n\n\n3\n0\n0\n0.96\n0.04\n0\n\n\n4\n0.75\n0.25\n0\n0\n0\n\n\n5\n1\n0\n0\n0\n0"
+  },
+  {
+    "objectID": "posts/04_OptimStrategies/index.html#step-3",
+    "href": "posts/04_OptimStrategies/index.html#step-3",
+    "title": "Determine optimal interventions strategies",
+    "section": "Step 3",
+    "text": "Step 3\nDetermine the steady state probabilities (1/4)\n\n\n\n\n\nFinite-state Markov chain\n\n\n\n\n\\[P(S^{t+1}=j \\mid S^t=i, S^{t-1}=i^{t-1},\\ldots, S^1=i^1, S^0=i^0) \\] \\[= P(S^{t+1}=j \\mid S^t=i) \\] \\[= P_{ij}\\]"
+  },
+  {
+    "objectID": "posts/04_OptimStrategies/index.html#step-3-1",
+    "href": "posts/04_OptimStrategies/index.html#step-3-1",
+    "title": "Determine optimal interventions strategies",
+    "section": "Step 3",
+    "text": "Step 3\nDetermine the steady state probabilities (2/4)\n\n\nA one-step transition matrix, \\(P\\), with the same dimention as the deterioration matrix is needed, i.e., \\(P_{K\\times K}\\)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\\(S^t\\)\n\\(S^{t+1}\\)\n\n\n1\n2\n3\n\\(\\cdots\\)\nk\n\n\n1\n\\(p_{11}\\)\n\\(p_{12}\\)\n\\(p_{13}\\)\n\\(\\cdots\\)\n\\(p_{1k}\\)\n\n\n2\n\\(p_{21}\\)\n\\(p_{22}\\)\n\\(p_{23}\\)\n\\(\\cdots\\)\n\\(p_{2k}\\)\n\n\n3\n\\(p_{31}\\)\n\\(p_{32}\\)\n\\(p_{33}\\)\n\\(\\cdots\\)\n\\(p_{3k}\\)\n\n\n\\(\\vdots\\)\n\\(\\vdots\\)\n\\(\\vdots\\)\n\\(\\vdots\\)\n\\(\\vdots\\)\n\\(\\vdots\\)\n\n\nk\n\\(p_{k1}\\)\n\\(p_{k2}\\)\n\\(p_{k3}\\)\n\\(\\cdots\\)\n\\(p_{kk}\\)\n\n\n\n\n\n\n\\(\\quad p_{ij} \\geq 0 \\qquad \\qquad\\) \\(\\sum_{j=1}^{K} p_{ij}=1\\)"
+  },
+  {
+    "objectID": "posts/04_OptimStrategies/index.html#step-3-2",
+    "href": "posts/04_OptimStrategies/index.html#step-3-2",
+    "title": "Determine optimal interventions strategies",
+    "section": "Step 3",
+    "text": "Step 3\nDetermine the steady state probabilities (3/4)\n\n\nSteady State Probabilites: \\[\n\\lim_{n \\rightarrow \\infty} p_{ij}^n = \\pi_j \\quad ; \\quad \\pi_j \\geq 0 \\quad\\textbf{&} \\quad \\sum_{k=1}^{K} \\pi_j =1\n\\]"
+  },
+  {
+    "objectID": "posts/04_OptimStrategies/index.html#step-3-3",
+    "href": "posts/04_OptimStrategies/index.html#step-3-3",
+    "title": "Determine optimal interventions strategies",
+    "section": "Step 3",
+    "text": "Step 3\nDetermine the steady state probabilities (3/4)\n\n\nSteady State Probabilites: \\[\n\\lim_{n \\rightarrow \\infty} p_{ij}^n = \\pi_j \\quad ; \\quad \\pi_j \\geq 0 \\quad\\textbf{&} \\quad \\sum_{k=1}^{K} \\pi_j =1\n\\]\nSteady states are derermined using the follownig formula: \\[\n\\pi_j = \\sum_{k=1}^{K} \\pi_i \\cdot p_{ij} \\qquad \\forall\\quad j=1,2,3,\\cdots,k \\quad\\backepsilon \\sum_{k=1}^{K} \\pi_i=1\n\\]"
+  },
+  {
+    "objectID": "posts/04_OptimStrategies/index.html#step-3-4",
+    "href": "posts/04_OptimStrategies/index.html#step-3-4",
+    "title": "Determine optimal interventions strategies",
+    "section": "Step 3",
+    "text": "Step 3\nDetermine the steady state probabilities (4/4)\n\n\n\n\n\n\n\n\n\n\n\nCS\nContributing bits to \\(\\pi_j\\)\n\n\n1\n2\n3\n4\n5\n\n\n1\n0.226\n0.010\n0\n0\n0\n\n\n2\n0\n0.420\n0.014\n0\n0\n\n\n3\n0\n0\n0.302\n0.014\n0\n\n\n4\n0.010\n0.003\n0\n0\n0\n\n\n5\n0\n0\n0\n0\n0"
+  },
+  {
+    "objectID": "posts/04_OptimStrategies/index.html#step-2",
+    "href": "posts/04_OptimStrategies/index.html#step-2",
+    "title": "Determine optimal interventions strategies",
+    "section": "Step 2",
+    "text": "Step 2\nDetermine the maintenance intervention strategy to be considered (1/3)\n\n\n\nConsider the maintenance intervention strategies as follows:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIS\nCS1\nCS2\nCS3\nCS4\nCS5\n\n\n\n\n1\nDo nothing\nDo nothing\nDo nothing\nRehabilitation\nReplacement\n\n\n2\nDo nothing\nDo nothing\nDo nothing\nDo nothing\nReplacement"
+  },
+  {
+    "objectID": "posts/04_OptimStrategies/index.html#step-2-1",
+    "href": "posts/04_OptimStrategies/index.html#step-2-1",
+    "title": "Determine optimal interventions strategies",
+    "section": "Step 2",
+    "text": "Step 2\nDetermine the maintenance intervention strategy to be considered (2/3)\n\n\nIn connection to the effectiveness vectors and unit costs of interventions\n\n\n\n\nCS\n\n\nInterventions\n\n\nCS\n\n\nMaintenance unit  costs (\\(mu/m^2\\))\n\n\nTravel time unit  costs (\\(mu/m^2\\))\n\n\nAccident unit  costs (\\(mu/m^2\\))\n\n\n\n\n1\n\n\n2\n\n\n3\n\n\n4\n\n\n5\n\n\n\n\n\n\n1\n\n\nDo nothing\n\n\n0.96\n\n\n0.04\n\n\n0\n\n\n0\n\n\n0\n\n\n0\n\n\n0\n\n\n0\n\n\n\n\n2\n\n\nDo nothing\n\n\n0\n\n\n0.97\n\n\n0.03\n\n\n0\n\n\n0\n\n\n10\n\n\n0\n\n\n0\n\n\n\n\n3\n\n\nDo nothing\n\n\n0\n\n\n0\n\n\n0.96\n\n\n0.04\n\n\n0\n\n\n50\n\n\n0\n\n\n0\n\n\n\n\n4\n\n\nDo nothing\n\n\n0\n\n\n0\n\n\n0\n\n\n0.94\n\n\n0.06\n\n\n100\n\n\n1000\n\n\n100\n\n\n\n\nRehabilitation\n\n\n0.75\n\n\n0.25\n\n\n0\n\n\n0\n\n\n0\n\n\n1000\n\n\n2000\n\n\n200\n\n\n\n\nReplacement\n\n\n1\n\n\n0\n\n\n0\n\n\n0\n\n\n0\n\n\n3500\n\n\n5000\n\n\n500\n\n\n\n\n5\n\n\nReplacement\n\n\n1\n\n\n0\n\n\n0\n\n\n0\n\n\n0\n\n\n3500\n\n\n5000\n\n\n500"
+  },
+  {
+    "objectID": "posts/04_OptimStrategies/index.html#step-2-2",
+    "href": "posts/04_OptimStrategies/index.html#step-2-2",
+    "title": "Determine optimal interventions strategies",
+    "section": "Step 2",
+    "text": "Step 2\nDetermine the maintenance intervention strategy to be considered (3/3)\n\n\nTranslation into the deterioration-intervention matrices\n\n\n\nCS\n1\n2\n3\n4\n5\n\n\n\n\n1\n0.96\n0.4\n0\n0\n0\n\n\n2\n0\n0.97\n0.03\n0\n0\n\n\n3\n0\n0\n0.96\n0.04\n0\n\n\n4\n0.75\n0.25\n0\n0\n0\n\n\n5\n1\n0\n0\n0\n0"
+  },
+  {
+    "objectID": "posts/04_OptimStrategies/index.html#step-3-5",
+    "href": "posts/04_OptimStrategies/index.html#step-3-5",
+    "title": "Determine optimal interventions strategies",
+    "section": "Step 3",
+    "text": "Step 3\nDetermine the steady state probabilities (4/4)\n\n\n\n\n\n\n\n\n\n\n\n\nCS\nContributing bits to \\(\\pi_j\\)\n\\(\\pi_j\\)\n\n\n1\n2\n3\n4\n5\n\n\n1\n0.226\n0.010\n0\n0\n0\n0.237\n\n\n2\n0\n0.420\n0.014\n0\n0\n0.434\n\n\n3\n0\n0\n0.302\n0.014\n0\n0.316\n\n\n4\n0.010\n0.003\n0\n0\n0\n0.014\n\n\n5\n0\n0\n0\n0\n0\n0\n\n\nSum\n0.237\n0.434\n0.316\n0.014\n0\n1"
+  },
+  {
+    "objectID": "posts/04_OptimStrategies/index.html#step-4",
+    "href": "posts/04_OptimStrategies/index.html#step-4",
+    "title": "Determine optimal interventions strategies",
+    "section": "Step 4",
+    "text": "Step 4\nDetermine the costs associated with the steady state (1/2)\n\n\nIf \\(N\\) equals a large number of transitions, and \\(X_i\\) is the number of times an asset enters state \\(i\\)\n\\[\nN \\rightarrow\\infty\\quad,\\frac{X_i}{N}\\rightarrow \\pi_i\n\\] \\[\n\\eta_\\infty=\\sum_{i=1}^{K}\\pi_i\\cdot C(i) \\qquad\\qquad C(i)=C(i)^{bI}+C(i)^{dI}\n\\]"
+  },
+  {
+    "objectID": "posts/04_OptimStrategies/index.html#step-4-1",
+    "href": "posts/04_OptimStrategies/index.html#step-4-1",
+    "title": "Determine optimal interventions strategies",
+    "section": "Step 4",
+    "text": "Step 4\nDetermine the costs associated with the steady state (2/2)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCS\nContributing bits to \\(\\pi_j\\)\n\\(\\pi_j\\)\nMaintenance Unit Costs \\((mu/m^2)\\)\nTravel Time Unit Costs \\((mu/m^2)\\)\nAccident Unit Costs \\((mu/m^2)\\)\nTotal Costs \\((mu/m^2)\\)\n\n\n1\n2\n3\n4\n5\n\n\n1\n0.226\n0.010\n0\n0\n0\n0.237\n0\n0\n0\n0\n\n\n2\n0\n0.420\n0.014\n0\n0\n0.434\n4.34\n0\n0\n4.34\n\n\n3\n0\n0\n0.302\n0.014\n0\n0.316\n15.78\n0\n0\n15.78\n\n\n4\n0.010\n0.003\n0\n0\n0\n0.014\n13.88\n27.77\n2.78\n44.43\n\n\n5\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n\n\nSum\n0.237\n0.434\n0.316\n0.014\n0\n1\n1\n27.77\n2.78\n64.55"
+  },
+  {
+    "objectID": "posts/04_OptimStrategies/index.html#step-5",
+    "href": "posts/04_OptimStrategies/index.html#step-5",
+    "title": "Determine optimal interventions strategies",
+    "section": "Step 5",
+    "text": "Step 5\nGenerate the view of how the condition and the costs evolve (1/2)\n\n\n\n\n\n\n\n\nAsset  state\np\n\n\n\n\n1\n0.237\n\n\n2\n0.434\n\n\n3\n0.316\n\n\n4\n0.014\n\n\n5\n0.000\n\n\nSum\n1.000"
+  },
+  {
+    "objectID": "posts/04_OptimStrategies/index.html#step-5-1",
+    "href": "posts/04_OptimStrategies/index.html#step-5-1",
+    "title": "Determine optimal interventions strategies",
+    "section": "Step 5",
+    "text": "Step 5\nGenerate the view of how the condition and the costs evolve (2/2)\n\n\n\n\n\n\nSteady State\n\n\n\n\n\n\n\n\nAsset  state\nMaintenance  Unit Costs  \\((mu/m^2)\\)\nTravel Time  Costs \\((mu/m^2)\\)\n\n\n\n\n1\n0.00\n0.00\n\n\n2\n4.34\n0.00\n\n\n3\n15.75\n0.00\n\n\n4\n13.88\n27.77\n\n\n5\n0.00\n0.00\n\n\nSum\n34.00\n27.77\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAsset  state\nAccident  Costs \\((mu/m^2)\\)\nTotal  Costs \\((mu/m^2)\\)\n\n\n\n\n1\n0.00\n0.00\n\n\n2\n0.00\n4.34\n\n\n3\n0.00\n15.78\n\n\n4\n2.78\n44.43\n\n\n5\n0.00\n0.00\n\n\nSum\n2.78\n64.55"
+  },
+  {
+    "objectID": "posts/04_OptimStrategies/index.html#step-6",
+    "href": "posts/04_OptimStrategies/index.html#step-6",
+    "title": "Determine optimal interventions strategies",
+    "section": "Step 6",
+    "text": "Step 6\nRepeat steps 2-5 for all maintenance intervention strategies\n\n\n\nAt least two interventions strategies for each asset subcategory.\n\nAsset\n\nCategory 1\n\nIntervention strategy 1\nIntervention strategy 2\n\nCategory 2\n\nIntervention strategy 1\nIntervention strategy 2\nIntervention strategy 3\n\nCategory 3\n\nIntervention strategy 1\nIntervention strategy 2"
+  },
+  {
+    "objectID": "posts/04_OptimStrategies/index.html#step-7",
+    "href": "posts/04_OptimStrategies/index.html#step-7",
+    "title": "Determine optimal interventions strategies",
+    "section": "Step 7",
+    "text": "Step 7\nCompare the results with respect to your goals and constraints (1/2)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCosts \\((mu/m^2)\\)\nIS1\nIS2\n\n\n\n\nMaintenance\n18’782\n39’030\n\n\nTravel time\n18’510\n131’263\n\n\nAccident\n1’851\n13’126\n\n\nTotal\n40’142\n183’419"
+  },
+  {
+    "objectID": "posts/04_OptimStrategies/index.html#step-7-1",
+    "href": "posts/04_OptimStrategies/index.html#step-7-1",
+    "title": "Determine optimal interventions strategies",
+    "section": "Step 7",
+    "text": "Step 7\nCompare the results with respect to your goals and constraints (2/2)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSteady  state\nIS1 (prob.)\nIS1 \\((m^2)\\)\nIS2 (prob.)\nIS2 \\((m^2)\\)\n\n\n\n\n1\n0.237\n3’972\n0.238\n3’991\n\n\n2\n0.434\n7’281\n0.327\n5’488\n\n\n3\n0.316\n5’296\n0.238\n3’991\n\n\n4\n0.014\n233\n0.187\n3’136\n\n\n5\n0.000\n0\n0.010\n176"
+  },
+  {
+    "objectID": "posts/04_OptimStrategies/index.html#next-steps",
+    "href": "posts/04_OptimStrategies/index.html#next-steps",
+    "title": "Determine optimal interventions strategies",
+    "section": "Next steps",
+    "text": "Next steps\n\nThis session:\n\nFinalize possible interventions and estimated intervention cost\nIf possible, determine optimal intervention strategy\n\nNext session(s):\n\nFinalize determining optimal intervention strategy for every asset category\nDevelop intervention programs"
   }
 ]
