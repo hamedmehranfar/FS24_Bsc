@@ -543,14 +543,14 @@
     "href": "posts/04_OptimStrategies/index.html#thank-you-for-your-attention",
     "title": "Determine optimal interventions strategies",
     "section": "Thank you for your attention!",
-    "text": "Thank you for your attention!\nQuestions?\n\n\n   Hamed Mehranfar Doctoral student hmehranfar@ethz.ch  ETH Zürich Institute of Construction and Infrastructure Management (IBI) Chair of Infrastructure Management HIL G 32.2, Stefano-Franscini-Platz 5 8093 Zürich\nwww.ibi.ethz.ch"
+    "text": "Thank you for your attention!\nQuestions?\n\n\n   Yushu An Doctoral student yushan@ethz.ch  ETH Zürich Institute of Construction and Infrastructure Management (IBI) Chair of Infrastructure Management HIL G 32.1, Stefano-Franscini-Platz 5 8093 Zürich\nwww.ibi.ethz.ch"
   },
   {
     "objectID": "posts/04_OptimStrategies/index.html",
     "href": "posts/04_OptimStrategies/index.html",
     "title": "Determine optimal interventions strategies",
     "section": "",
-    "text": "Maintenance interventions\n\nAll activities that help to ensure that an object provides the level of service for which it was constructed.\n\nRoutine maintenance interventions\nRehabilitation interventions\n\n\n\n\nDevelopment interventions\n\nAll activities that help to ensure that an object provides a new level of service.\n\nAdaptation interventions\nTransformation interventions\nExpansion interventions"
+    "text": "flowchart TB\n    step1[&lt;font size=2&gt;Step 1: Estimate the state of each asset type at t=0]\n    step2[&lt;font size=2&gt;Step 2: Determine the maintenance intervention strategy]\n    step3[&lt;font size=2&gt;Step 3: Determine the steady state probabilities]\n    step4[&lt;font size=2&gt;Step 4: Determine the costs associated with the steady state]\n    step5[&lt;font size=2&gt;Step 5: Generate the view of condition and costs over time]\n    step6[&lt;font size=2&gt;Step 6: Repeat steps 2-5 for all strategies]\n    step7[&lt;font size=2&gt;Step 7: Compare results with goals and constraints]\n\n    step1 --&gt; step2\n    step2 --&gt; step3\n    step3 --&gt; step4\n    step4 --&gt; step5\n    step5 --&gt; step6\n    step6 --&gt; step7"
   },
   {
     "objectID": "posts/04_OptimStrategies/index.html#how-to-evaluate-possible-maintenance-intervention-strategies",
@@ -634,7 +634,7 @@
     "href": "posts/04_OptimStrategies/index.html#step-3-1",
     "title": "Determine optimal interventions strategies",
     "section": "Step 3",
-    "text": "Step 3\nDetermine the steady state probabilities (2/4)\n\n\nA one-step transition matrix, \\(P\\), with the same dimention as the deterioration matrix is needed, i.e., \\(P_{K\\times K}\\)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\\(S^t\\)\n\\(S^{t+1}\\)\n\n\n1\n2\n3\n\\(\\cdots\\)\nk\n\n\n1\n\\(p_{11}\\)\n\\(p_{12}\\)\n\\(p_{13}\\)\n\\(\\cdots\\)\n\\(p_{1k}\\)\n\n\n2\n\\(p_{21}\\)\n\\(p_{22}\\)\n\\(p_{23}\\)\n\\(\\cdots\\)\n\\(p_{2k}\\)\n\n\n3\n\\(p_{31}\\)\n\\(p_{32}\\)\n\\(p_{33}\\)\n\\(\\cdots\\)\n\\(p_{3k}\\)\n\n\n\\(\\vdots\\)\n\\(\\vdots\\)\n\\(\\vdots\\)\n\\(\\vdots\\)\n\\(\\vdots\\)\n\\(\\vdots\\)\n\n\nk\n\\(p_{k1}\\)\n\\(p_{k2}\\)\n\\(p_{k3}\\)\n\\(\\cdots\\)\n\\(p_{kk}\\)\n\n\n\n\n\n\n\\(\\quad p_{ij} \\geq 0 \\qquad \\qquad\\) \\(\\sum_{j=1}^{K} p_{ij}=1\\)"
+    "text": "Step 3\nDetermine the steady state probabilities (2/4)\n\n\nA one-step transition matrix, \\(P\\), with the same dimention as the deterioration matrix is needed, i.e., \\(P_{K\\times K}\\)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\\(S^t\\)\n\\(S^{t+1}\\)\n\n\n1\n2\n3\n\\(\\cdots\\)\nk\n\n\n1\n\\(p_{11}\\)\n\\(p_{12}\\)\n\\(p_{13}\\)\n\\(\\cdots\\)\n\\(p_{1k}\\)\n\n\n2\n\\(p_{21}\\)\n\\(p_{22}\\)\n\\(p_{23}\\)\n\\(\\cdots\\)\n\\(p_{2k}\\)\n\n\n3\n\\(p_{31}\\)\n\\(p_{32}\\)\n\\(p_{33}\\)\n\\(\\cdots\\)\n\\(p_{3k}\\)\n\n\n\\(\\vdots\\)\n\\(\\vdots\\)\n\\(\\vdots\\)\n\\(\\vdots\\)\n\\(\\vdots\\)\n\\(\\vdots\\)\n\n\nk\n\\(p_{k1}\\)\n\\(p_{k2}\\)\n\\(p_{k3}\\)\n\\(\\cdots\\)\n\\(p_{kk}\\)\n\n\n\n\n\n\\(\\quad p_{ij} \\geq 0 \\qquad \\qquad\\) \\(\\sum_{j=1}^{K} p_{ij}=1\\)"
   },
   {
     "objectID": "posts/04_OptimStrategies/index.html#step-3-2",
@@ -711,14 +711,14 @@
     "href": "posts/04_OptimStrategies/index.html#step-5-1",
     "title": "Determine optimal interventions strategies",
     "section": "Step 5",
-    "text": "Step 5\nGenerate the view of how the condition and the costs evolve (2/2)\n\n\n\n\n\n\nSteady State\n\n\n\n\n\n\n\n\nAsset  state\nMaintenance  Unit Costs  \\((mu/m^2)\\)\nTravel Time  Costs \\((mu/m^2)\\)\n\n\n\n\n1\n0.00\n0.00\n\n\n2\n4.34\n0.00\n\n\n3\n15.75\n0.00\n\n\n4\n13.88\n27.77\n\n\n5\n0.00\n0.00\n\n\nSum\n34.00\n27.77\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAsset  state\nAccident  Costs \\((mu/m^2)\\)\nTotal  Costs \\((mu/m^2)\\)\n\n\n\n\n1\n0.00\n0.00\n\n\n2\n0.00\n4.34\n\n\n3\n0.00\n15.78\n\n\n4\n2.78\n44.43\n\n\n5\n0.00\n0.00\n\n\nSum\n2.78\n64.55"
+    "text": "Step 5\nGenerate the view of how the condition and the costs evolve (2/2)\n\n\n\n\n\n\nSteady State\n\n\n\n\n\n\n\n\nAsset  state\nMaintenance  Unit Costs  \\((mu/m^2)\\)\nTravel Time  Costs \\((mu/m^2)\\)\n\n\n\n\n1\n0.00\n0.00\n\n\n2\n4.34\n0.00\n\n\n3\n15.75\n0.00\n\n\n4\n13.88\n27.77\n\n\n5\n0.00\n0.00\n\n\nSum\n34.00\n27.77\n\n\n\n\n\n\n\n\n\n\n\n\n\nAsset  state\nAccident  Costs \\((mu/m^2)\\)\nTotal  Costs \\((mu/m^2)\\)\n\n\n\n\n1\n0.00\n0.00\n\n\n2\n0.00\n4.34\n\n\n3\n0.00\n15.78\n\n\n4\n2.78\n44.43\n\n\n5\n0.00\n0.00\n\n\nSum\n2.78\n64.55"
   },
   {
     "objectID": "posts/04_OptimStrategies/index.html#step-6",
     "href": "posts/04_OptimStrategies/index.html#step-6",
     "title": "Determine optimal interventions strategies",
     "section": "Step 6",
-    "text": "Step 6\nRepeat steps 2-5 for all maintenance intervention strategies\n\n\n\nAt least two interventions strategies for each asset subcategory.\n\nAsset\n\nCategory 1\n\nIntervention strategy 1\nIntervention strategy 2\n\nCategory 2\n\nIntervention strategy 1\nIntervention strategy 2\nIntervention strategy 3\n\nCategory 3\n\nIntervention strategy 1\nIntervention strategy 2"
+    "text": "Step 6\nRepeat steps 2-5 for all maintenance intervention strategies\n\n\nAt least two interventions strategies for each asset subcategory.\n\nAsset\n\nCategory 1\n\nIntervention strategy 1\nIntervention strategy 2\n\nCategory 2\n\nIntervention strategy 1\nIntervention strategy 2\nIntervention strategy 3\n\nCategory 3\n\nIntervention strategy 1\nIntervention strategy 2"
   },
   {
     "objectID": "posts/04_OptimStrategies/index.html#step-7",
@@ -732,13 +732,13 @@
     "href": "posts/04_OptimStrategies/index.html#step-7-1",
     "title": "Determine optimal interventions strategies",
     "section": "Step 7",
-    "text": "Step 7\nCompare the results with respect to your goals and constraints (2/2)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSteady  state\nIS1 (prob.)\nIS1 \\((m^2)\\)\nIS2 (prob.)\nIS2 \\((m^2)\\)\n\n\n\n\n1\n0.237\n3’972\n0.238\n3’991\n\n\n2\n0.434\n7’281\n0.327\n5’488\n\n\n3\n0.316\n5’296\n0.238\n3’991\n\n\n4\n0.014\n233\n0.187\n3’136\n\n\n5\n0.000\n0\n0.010\n176"
+    "text": "Step 7\nCompare the results with respect to your goals and constraints (2/2)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSteady state\nIS1 (prob.)\nIS1 \\((m^2)\\)\nIS2 (prob.)\nIS2 \\((m^2)\\)\n\n\n\n\n1\n0.237\n3’972\n0.238\n3’991\n\n\n2\n0.434\n7’281\n0.327\n5’488\n\n\n3\n0.316\n5’296\n0.238\n3’991\n\n\n4\n0.014\n233\n0.187\n3’136\n\n\n5\n0.000\n0\n0.010\n176"
   },
   {
     "objectID": "posts/04_OptimStrategies/index.html#next-steps",
     "href": "posts/04_OptimStrategies/index.html#next-steps",
     "title": "Determine optimal interventions strategies",
     "section": "Next steps",
-    "text": "Next steps\n\nThis session:\n\nFinalize possible interventions and estimated intervention cost\nIf possible, determine optimal intervention strategy\n\nNext session(s):\n\nFinalize determining optimal intervention strategy for every asset category\nDevelop intervention programs"
+    "text": "Next steps\n\n\n\nThis session:\n\nFinalize possible interventions and estimated intervention cost\nIf possible, determine optimal intervention strategy\n\nNext session(s):\n\nFinalize determining optimal intervention strategy for every asset category\nDevelop intervention programs"
   }
 ]
