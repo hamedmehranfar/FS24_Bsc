@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Estimation of financial needs and condition of infrastructure objects",
     "section": "",
-    "text": "Problem statement\nProper management of infrastructure requires forecasting the condition of infrastructure assets and the level of funding required to ensure that they provide an adequate level of service, with due consideration of the associated uncertainties. In this project, you will make these estimates for the railway infrastructure network of the SZU. You will estimate how the condition of the existing network will change over the next 50 years, propose possible infrastructure interventions to maintain an adequate level of service, and estimate the cost of these interventions. In this project you will learn to:\n\nOrganize the available data of an infrastructure network,\nEvaluate the impact of individual objects on the overall level of service,\nDevelop models for the condition of individual objects, as well as how they change over time, and\nDevelop and evaluate interventions for infrastructure networks considering data uncertainty.\n\nHere we upload the slides related to each weekly meeting according to the Figure 1.\n\n\n\n\n\n\ngantt\n    title Thesis timeline\n    dateFormat  YYYY-MM-DD\n    section Initialisation\n    Kick-off meeting : milestone, a1, 2024-02-26, 1d\n    \n    section Work in progress\n    Determine objective functions and classify assets :done a1, 2024-03-05,5d\n    Define condition classes and model deterioration : 6d\n    Determine possible interventions & strategies : 12d\n    Estimate cost of interventions and their impacts : 12d\n    Interim presentation :crit, 2024-04-08, 1d\n    Determine optimal interventioin strategy : 14d\n    Develop intervention program : 21d\n    Review results and any assumptions : 14d\n    Final presentation :crit, 2024-05-27, 1d\n    \n    section Finalisation\n    Document work incl. meeting minutes, final report, etc. :active a2,  2024-03-04, 12w\n    Material submission : milestone, 2024-05-31, 1d\n    \n\n\n\n\nFigure 1: The timeline for accomplishing the thesis.\n\n\n\n\n\nTopics \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDetermine optimal interventions strategies\n\n\nEstimation of financial needs and condition of infrastructure assets\n\n\n\nWeek8\n\n\n\n\n\n\n\n\n\nApr 15, 2024\n\n\nHamed Mehranfar, Yushu An\n\n\n\n\n\n\n\n\n\n\n\n\nDefine possible interventions and strategies\n\n\nEstimation of financial needs and condition of infrastructure assets\n\n\n\nWeek5\n\n\n\n\n\n\n\n\n\nMar 25, 2024\n\n\nHamed Mehranfar, Yushu An\n\n\n\n\n\n\n\n\n\n\n\n\nDefine condition classes and model deterioration\n\n\nEstimation of financial needs and condition of infrastructure assets\n\n\n\nWeek3\n\n\n\n\n\n\n\n\n\nMar 11, 2024\n\n\nHamed Mehranfar, Yushu An\n\n\n\n\n\n\n\n\n\n\n\n\nDetermine objective function and classify assets\n\n\nEstimation of financial needs and condition of infrastructure assets\n\n\n\nWeek2\n\n\n\n\n\n\n\n\n\nMar 5, 2024\n\n\nHamed Mehranfar, Yushu An\n\n\n\n\n\n\nNo matching items"
+    "text": "Problem statement\nProper management of infrastructure requires forecasting the condition of infrastructure assets and the level of funding required to ensure that they provide an adequate level of service, with due consideration of the associated uncertainties. In this project, you will make these estimates for the railway infrastructure network of the SZU. You will estimate how the condition of the existing network will change over the next 50 years, propose possible infrastructure interventions to maintain an adequate level of service, and estimate the cost of these interventions. In this project you will learn to:\n\nOrganize the available data of an infrastructure network,\nEvaluate the impact of individual objects on the overall level of service,\nDevelop models for the condition of individual objects, as well as how they change over time, and\nDevelop and evaluate interventions for infrastructure networks considering data uncertainty.\n\nHere we upload the slides related to each weekly meeting according to the Figure 1.\n\n\n\n\n\n\ngantt\n    title Thesis timeline\n    dateFormat  YYYY-MM-DD\n    section Initialisation\n    Kick-off meeting : milestone, a1, 2024-02-26, 1d\n    \n    section Work in progress\n    Determine objective functions and classify assets :done a1, 2024-03-05,5d\n    Define condition classes and model deterioration : 6d\n    Determine possible interventions & strategies : 12d\n    Estimate cost of interventions and their impacts : 12d\n    Interim presentation :crit, 2024-04-08, 1d\n    Determine optimal interventioin strategy : 14d\n    Develop intervention program : 21d\n    Review results and any assumptions : 14d\n    Final presentation :crit, 2024-05-27, 1d\n    \n    section Finalisation\n    Document work incl. meeting minutes, final report, etc. :active a2,  2024-03-04, 12w\n    Material submission : milestone, 2024-05-31, 1d\n    \n\n\n\n\nFigure 1: The timeline for accomplishing the thesis.\n\n\n\n\n\nTopics \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDevelop interventions programs\n\n\nEstimation of financial needs and condition of infrastructure assets\n\n\n\nWeek10\n\n\n\n\n\n\n\n\n\nApr 29, 2024\n\n\nHamed Mehranfar, Yushu An\n\n\n\n\n\n\n\n\n\n\n\n\nDetermine optimal interventions strategies\n\n\nEstimation of financial needs and condition of infrastructure assets\n\n\n\nWeek8\n\n\n\n\n\n\n\n\n\nApr 15, 2024\n\n\nHamed Mehranfar, Yushu An\n\n\n\n\n\n\n\n\n\n\n\n\nDefine possible interventions and strategies\n\n\nEstimation of financial needs and condition of infrastructure assets\n\n\n\nWeek5\n\n\n\n\n\n\n\n\n\nMar 25, 2024\n\n\nHamed Mehranfar, Yushu An\n\n\n\n\n\n\n\n\n\n\n\n\nDefine condition classes and model deterioration\n\n\nEstimation of financial needs and condition of infrastructure assets\n\n\n\nWeek3\n\n\n\n\n\n\n\n\n\nMar 11, 2024\n\n\nHamed Mehranfar, Yushu An\n\n\n\n\n\n\n\n\n\n\n\n\nDetermine objective function and classify assets\n\n\nEstimation of financial needs and condition of infrastructure assets\n\n\n\nWeek2\n\n\n\n\n\n\n\n\n\nMar 5, 2024\n\n\nHamed Mehranfar, Yushu An\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -740,5 +740,236 @@
     "title": "Determine optimal interventions strategies",
     "section": "Next steps",
     "text": "Next steps\n\n\n\nThis session:\n\nFinalize possible interventions and estimated intervention cost\nIf possible, determine optimal intervention strategy\n\nNext session(s):\n\nFinalize determining optimal intervention strategy for every asset category\nDevelop intervention programs"
+  },
+  {
+    "objectID": "posts/5_IntPrograms/index.html#intervention-strategies-vs-intervention-programs",
+    "href": "posts/5_IntPrograms/index.html#intervention-strategies-vs-intervention-programs",
+    "title": "Develop interventions programs",
+    "section": "Intervention Strategies vs Intervention Programs",
+    "text": "Intervention Strategies vs Intervention Programs\n\n\n\n\nIntervention strategies\n\nInclude all interventions to be executed on an item taking into consideration of all possible conditions of the item\nAre developed without consideration of other sub-items, items or super-items\n\n\nIntervention programs\n\nInclude the interventions to be executed on items taking into consideration the specific conditions of the items\nAre developed with or without consideration of the other sub-items, items, or super-items\n\n\n\n\n\n\nThe interventions on an item include all interventions on the sub-items of the item.\nThe conditions of the item include the conditions of the sub-items of the item."
+  },
+  {
+    "objectID": "posts/5_IntPrograms/index.html#intervention-strategies-and-intervention-programs",
+    "href": "posts/5_IntPrograms/index.html#intervention-strategies-and-intervention-programs",
+    "title": "Determine optimal interventions strategies",
+    "section": "Intervention strategies and intervention programs",
+    "text": "Intervention strategies and intervention programs\n\n\n\n\nIntervention strategies\n\nInclude all interventions to be executed on an item taking into consideration of all possible conditions of the item\nAre developed without consideration of other sub-items, items or super-items\n\n\nIntervention programs\n\nInclude the interventions to be executed on items taking into consideration the specific conditions of the items\nAre developed with or without consideration of the other sub-items, items, or super-items\n\n\n\n\n\n\nThe interventions on an item include all interventions on the sub-items of the item.\nThe conditions of the item include the conditions of the sub-items of the item."
+  },
+  {
+    "objectID": "posts/5_IntPrograms/index.html#how-to-construct-a-maintenance-intervention-program",
+    "href": "posts/5_IntPrograms/index.html#how-to-construct-a-maintenance-intervention-program",
+    "title": "Develop interventions programs",
+    "section": "How to construct a maintenance intervention program",
+    "text": "How to construct a maintenance intervention program\n\n\nThe construction of a maintenance intervention program can be:\n\nDerived directly from the maintenance intervention strategy\nBased directly on expert opinion\nDone by using agency rules\n\n\n\n\n\n\n\n\n\nExample agency rules\n\n\n\nIf less than 5% of the surface area of a bridge requires an intervention according to the intervention strategy to be followed, no intervention is performed (to ensure interventions are not performed on very small parts of bridges).\nIf more than 5% of the surface area of a structure requires an intervention according to the intervention strategy to be followed, than interventions for all parts of the bridge that are in states 3, 4 and 5 are performed (to ensure a sufficient return period between interventions)"
+  },
+  {
+    "objectID": "posts/5_IntPrograms/index.html#step-1-22",
+    "href": "posts/5_IntPrograms/index.html#step-1-22",
+    "title": "Determine interventions programs",
+    "section": "Step 1 (2/2)",
+    "text": "Step 1 (2/2)\nEstimate the state of each asset type at \\(t=0\\)\n\n\n\nOnce you know the objects you are considering, you can also determine their deterioration transition matrix\n\n\n\n\n\n\n\n\n\n\n\n\\(CS^{t}\\)\n\\(CS^{t+1}\\)\n\n\n\n\n\n\n\n1\n2\n3\n4\n5\n\n\n1\n0.956\n0.044\n0\n0\n0\n\n\n2\n0\n0.968\n0.032\n0\n0\n\n\n3\n0\n0\n0.956\n0.044\n0\n\n\n4\n0\n0\n0\n0.944\n0.056\n\n\n5\n0\n0\n0\n0\n1"
+  },
+  {
+    "objectID": "posts/5_IntPrograms/index.html#step-2",
+    "href": "posts/5_IntPrograms/index.html#step-2",
+    "title": "Determine interventions programs",
+    "section": "Step 2",
+    "text": "Step 2\nDetermine the maintenance intervention strategy to be considered (3/3)\n\n\nTranslation into the deterioration-intervention matrices\n\n\n\nCS\n1\n2\n3\n4\n5\n\n\n\n\n1\n0.96\n0.4\n0\n0\n0\n\n\n2\n0\n0.97\n0.03\n0\n0\n\n\n3\n0\n0\n0.96\n0.04\n0\n\n\n4\n0.75\n0.25\n0\n0\n0\n\n\n5\n1\n0\n0\n0\n0"
+  },
+  {
+    "objectID": "posts/5_IntPrograms/index.html#step-2-1",
+    "href": "posts/5_IntPrograms/index.html#step-2-1",
+    "title": "Determine interventions programs",
+    "section": "Step 2",
+    "text": "Step 2\nDetermine the maintenance intervention strategy to be considered (2/3)\n\n\nIn connection to the effectiveness vectors and unit costs of interventions\n\n\n\n\n\n\n\n\n\n\n\nCS\nInterventions\nCS\nMaintenance unit\ncosts ($mu/m^2$)\nTravel time unit\ncosts ($mu/m^2$)\nAccident unit\ncosts ($mu/m^2$)\n\n\n\n\n1\n2\n3\n4\n5\n\n\n\n1\nDo nothing\n0.96\n0.04\n0\n0\n\n\n2\nDo nothing\n0\n0.97\n0.03\n0\n\n\n3\nDo nothing\n0\n0\n0.96\n0.04\n\n\n4\nDo nothing\n0\n0\n0\n0.94\n\n\nRehabilitation\n0.75\n0.25\n0\n0\n0\n\n\nReplacement\n1\n0\n0\n0\n0\n\n\n5\nReplacement\n1\n0\n0\n0"
+  },
+  {
+    "objectID": "posts/5_IntPrograms/index.html#step-2-2",
+    "href": "posts/5_IntPrograms/index.html#step-2-2",
+    "title": "Determine interventions programs",
+    "section": "Step 2",
+    "text": "Step 2\nDetermine the maintenance intervention strategy to be considered (3/3)\n\n\nTranslation into the deterioration-intervention matrices\n\n\n\nCS\n1\n2\n3\n4\n5\n\n\n\n\n1\n0.96\n0.4\n0\n0\n0\n\n\n2\n0\n0.97\n0.03\n0\n0\n\n\n3\n0\n0\n0.96\n0.04\n0\n\n\n4\n0.75\n0.25\n0\n0\n0\n\n\n5\n1\n0\n0\n0\n0"
+  },
+  {
+    "objectID": "posts/5_IntPrograms/index.html#step-3",
+    "href": "posts/5_IntPrograms/index.html#step-3",
+    "title": "Determine interventions programs",
+    "section": "Step 3",
+    "text": "Step 3"
+  },
+  {
+    "objectID": "posts/5_IntPrograms/index.html#step-3-1",
+    "href": "posts/5_IntPrograms/index.html#step-3-1",
+    "title": "Determine interventions programs",
+    "section": "Step 3",
+    "text": "Step 3"
+  },
+  {
+    "objectID": "posts/5_IntPrograms/index.html#step-3-2",
+    "href": "posts/5_IntPrograms/index.html#step-3-2",
+    "title": "Determine interventions programs",
+    "section": "Step 3",
+    "text": "Step 3\nDetermine the steady state probabilities (3/4)\n\n\nSteady State Probabilites: \\[\n\\lim_{n \\rightarrow \\infty} p_{ij}^n = \\pi_j \\quad ; \\quad \\pi_j \\geq 0 \\quad\\textbf{&} \\quad \\sum_{k=1}^{K} \\pi_j =1\n\\]"
+  },
+  {
+    "objectID": "posts/5_IntPrograms/index.html#step-3-3",
+    "href": "posts/5_IntPrograms/index.html#step-3-3",
+    "title": "Determine interventions programs",
+    "section": "Step 3",
+    "text": "Step 3\nDetermine the steady state probabilities (3/4)\n\n\nSteady State Probabilites: \\[\n\\lim_{n \\rightarrow \\infty} p_{ij}^n = \\pi_j \\quad ; \\quad \\pi_j \\geq 0 \\quad\\textbf{&} \\quad \\sum_{k=1}^{K} \\pi_j =1\n\\]\nSteady states are derermined using the follownig formula: \\[\n\\pi_j = \\sum_{k=1}^{K} \\pi_i \\cdot p_{ij} \\qquad \\forall\\quad j=1,2,3,\\cdots,k \\quad\\backepsilon \\sum_{k=1}^{K} \\pi_i=1\n\\]"
+  },
+  {
+    "objectID": "posts/5_IntPrograms/index.html#step-3-4",
+    "href": "posts/5_IntPrograms/index.html#step-3-4",
+    "title": "Determine interventions programs",
+    "section": "Step 3",
+    "text": "Step 3\nDetermine the steady state probabilities (4/4)\n\n\n\n\n\n\n\n\n\n\n\nCS\nContributing bits to \\(\\pi_j\\)\n\n\n\n\n\n\n\n1\n2\n3\n4\n5\n\n\n1\n0.226\n0.010\n0\n0\n0\n\n\n2\n0\n0.420\n0.014\n0\n0\n\n\n3\n0\n0\n0.302\n0.014\n0\n\n\n4\n0.010\n0.003\n0\n0\n0\n\n\n5\n0\n0\n0\n0\n0"
+  },
+  {
+    "objectID": "posts/5_IntPrograms/index.html#step-3-5",
+    "href": "posts/5_IntPrograms/index.html#step-3-5",
+    "title": "Determine interventions programs",
+    "section": "Step 3",
+    "text": "Step 3\nDetermine the steady state probabilities (4/4)\n\n\n\n\n\n\n\n\n\n\n\n\nCS\nContributing bits to \\(\\pi_j\\)\n\\(\\pi_j\\)\n\n\n\n\n\n\n\n\n1\n2\n3\n4\n5\n\n\n1\n0.226\n0.010\n0\n0\n0\n0.237\n\n\n2\n0\n0.420\n0.014\n0\n0\n0.434\n\n\n3\n0\n0\n0.302\n0.014\n0\n0.316\n\n\n4\n0.010\n0.003\n0\n0\n0\n0.014\n\n\n5\n0\n0\n0\n0\n0\n0\n\n\nSum\n0.237\n0.434\n0.316\n0.014\n0\n1"
+  },
+  {
+    "objectID": "posts/5_IntPrograms/index.html#step-4",
+    "href": "posts/5_IntPrograms/index.html#step-4",
+    "title": "Determine interventions programs",
+    "section": "Step 4",
+    "text": "Step 4\nDetermine the costs associated with the steady state (1/2)\n\n\nIf \\(N\\) equals a large number of transitions, and \\(X_i\\) is the number of times an asset enters state \\(i\\)\n\\[\nN \\rightarrow\\infty\\quad,\\frac{X_i}{N}\\rightarrow \\pi_i\n\\] \\[\n\\eta_\\infty=\\sum_{i=1}^{K}\\pi_i\\cdot C(i) \\qquad\\qquad C(i)=C(i)^{bI}+C(i)^{dI}\n\\]"
+  },
+  {
+    "objectID": "posts/5_IntPrograms/index.html#step-4-1",
+    "href": "posts/5_IntPrograms/index.html#step-4-1",
+    "title": "Determine interventions programs",
+    "section": "Step 4",
+    "text": "Step 4\nDetermine the costs associated with the steady state (2/2)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCS\nContributing bits to \\(\\pi_j\\)\n\\(\\pi_j\\)\nMaintenance Unit Costs \\((mu/m^2)\\)\nTravel Time Unit Costs \\((mu/m^2)\\)\nAccident Unit Costs \\((mu/m^2)\\)\nTotal Costs \\((mu/m^2)\\)\n\n\n\n\n\n\n\n\n\n\n\n\n1\n2\n3\n4\n5\n\n\n1\n0.226\n0.010\n0\n0\n0\n0.237\n0\n0\n0\n0\n\n\n2\n0\n0.420\n0.014\n0\n0\n0.434\n4.34\n0\n0\n4.34\n\n\n3\n0\n0\n0.302\n0.014\n0\n0.316\n15.78\n0\n0\n15.78\n\n\n4\n0.010\n0.003\n0\n0\n0\n0.014\n13.88\n27.77\n2.78\n44.43\n\n\n5\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n\n\nSum\n0.237\n0.434\n0.316\n0.014\n0\n1\n1\n27.77\n2.78\n64.55"
+  },
+  {
+    "objectID": "posts/5_IntPrograms/index.html#step-5",
+    "href": "posts/5_IntPrograms/index.html#step-5",
+    "title": "Determine interventions programs",
+    "section": "Step 5",
+    "text": "Step 5\nGenerate the view of how the condition and the costs evolve (1/2)\n\n\n\n\n\n\n\n\nAsset  state\np\n\n\n\n\n1\n0.237\n\n\n2\n0.434\n\n\n3\n0.316\n\n\n4\n0.014\n\n\n5\n0.000\n\n\nSum\n1.000"
+  },
+  {
+    "objectID": "posts/5_IntPrograms/index.html#step-5-1",
+    "href": "posts/5_IntPrograms/index.html#step-5-1",
+    "title": "Determine interventions programs",
+    "section": "Step 5",
+    "text": "Step 5\nGenerate the view of how the condition and the costs evolve (2/2)\n\n\n\n\n\n\nSteady State\n\n\n\n\n\n\n\n\nAsset  state\nMaintenance  Unit Costs  \\((mu/m^2)\\)\nTravel Time  Costs \\((mu/m^2)\\)\n\n\n\n\n1\n0.00\n0.00\n\n\n2\n4.34\n0.00\n\n\n3\n15.75\n0.00\n\n\n4\n13.88\n27.77\n\n\n5\n0.00\n0.00\n\n\nSum\n34.00\n27.77\n\n\n\n\n\n\n\n\n\n\n\n\n\nAsset  state\nAccident  Costs \\((mu/m^2)\\)\nTotal  Costs \\((mu/m^2)\\)\n\n\n\n\n1\n0.00\n0.00\n\n\n2\n0.00\n4.34\n\n\n3\n0.00\n15.78\n\n\n4\n2.78\n44.43\n\n\n5\n0.00\n0.00\n\n\nSum\n2.78\n64.55"
+  },
+  {
+    "objectID": "posts/5_IntPrograms/index.html#step-6",
+    "href": "posts/5_IntPrograms/index.html#step-6",
+    "title": "Determine interventions programs",
+    "section": "Step 6",
+    "text": "Step 6\nRepeat steps 2-5 for all maintenance intervention strategies\n\n\nAt least two interventions strategies for each asset subcategory.\n\nAsset\n\nCategory 1\n\nIntervention strategy 1\nIntervention strategy 2\n\nCategory 2\n\nIntervention strategy 1\nIntervention strategy 2\nIntervention strategy 3\n\nCategory 3\n\nIntervention strategy 1\nIntervention strategy 2"
+  },
+  {
+    "objectID": "posts/5_IntPrograms/index.html#step-7",
+    "href": "posts/5_IntPrograms/index.html#step-7",
+    "title": "Determine interventions programs",
+    "section": "Step 7",
+    "text": "Step 7\nCompare the results with respect to your goals and constraints (1/2)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCosts \\((mu/m^2)\\)\nIS1\nIS2\n\n\n\n\nMaintenance\n18’782\n39’030\n\n\nTravel time\n18’510\n131’263\n\n\nAccident\n1’851\n13’126\n\n\nTotal\n40’142\n183’419"
+  },
+  {
+    "objectID": "posts/5_IntPrograms/index.html#step-7-1",
+    "href": "posts/5_IntPrograms/index.html#step-7-1",
+    "title": "Determine interventions programs",
+    "section": "Step 7",
+    "text": "Step 7\nCompare the results with respect to your goals and constraints (2/2)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSteady state\nIS1 (prob.)\nIS1 \\((m^2)\\)\nIS2 (prob.)\nIS2 \\((m^2)\\)\n\n\n\n\n1\n0.237\n3’972\n0.238\n3’991\n\n\n2\n0.434\n7’281\n0.327\n5’488\n\n\n3\n0.316\n5’296\n0.238\n3’991\n\n\n4\n0.014\n233\n0.187\n3’136\n\n\n5\n0.000\n0\n0.010\n176"
+  },
+  {
+    "objectID": "posts/5_IntPrograms/index.html#next-steps",
+    "href": "posts/5_IntPrograms/index.html#next-steps",
+    "title": "Develop interventions programs",
+    "section": "Next steps",
+    "text": "Next steps\n\n\n\nNext sessions:\n\nFinalize determining optimal intervention strategy for every asset category\nDevelop intervention programs\n\nSubmission of all materials\n\nPolyBox\nFriday 31/05/2024"
+  },
+  {
+    "objectID": "posts/5_IntPrograms/index.html#thank-you-for-your-attention",
+    "href": "posts/5_IntPrograms/index.html#thank-you-for-your-attention",
+    "title": "Develop interventions programs",
+    "section": "Thank you for your attention!",
+    "text": "Thank you for your attention!\nQuestions?\n\n\n   Hamed Mehranfar Doctoral student hmehranfar@ethz.ch  ETH Zürich Institute of Construction and Infrastructure Management (IBI) Chair of Infrastructure Management HIL G 32.2, Stefano-Franscini-Platz 5 8093 Zürich\nwww.ibi.ethz.ch"
+  },
+  {
+    "objectID": "posts/5_IntPrograms/index.html#how-to-construct-a-maintenance-intervention-program-1",
+    "href": "posts/5_IntPrograms/index.html#how-to-construct-a-maintenance-intervention-program-1",
+    "title": "Develop interventions programs",
+    "section": "How to construct a maintenance intervention program",
+    "text": "How to construct a maintenance intervention program\n\n\n\n\n\n\n\n\n\nStep\nDescription\n\n\n\n\n1\nDetermine the time intervals and time period in which maintenance interventions are to be executed.\n\n\n2\nEstimate the percentage of each item in each state at \\(t=0\\).\n\n\n3\nDetermine the probable maintenance interventions to be executed at t in which a maintenance intervention is to be executed without consideration of other items (based on actual or expected state of items).\n\n\n4\nDetermine the maintenance interventions to be executed at each t in which a maintenance intervention is to be executed with consideration of other items (based on actual or expected state of items and agency rules). (Attention: Not covered in Excel spread sheet explicitly)\n\n\n5\nEstimate probable costs of maintenance interventions to be executed at time \\(t\\).\n\n\n6\nEstimate the probable state of each item at \\(t= t+1\\).\n\n\n7\nRepeat steps 2 to 7 (with t= t+ 1) until the probable states of all items, the maintenance interventions to be executed, and maintenance intervention costs are determined over the specified time period (a first intervention program exists).\n\n\n8\nVerify all constraints at time t, e.g., budget limit in each time interval.\n\n\n9\nDetermine the maintenance interventions to be included in the maintenance intervention program so that all constraints are satisfied."
+  },
+  {
+    "objectID": "posts/5_IntPrograms/index.html#example-of-intervention-program-that-correspond-to-different-intervention-strategies",
+    "href": "posts/5_IntPrograms/index.html#example-of-intervention-program-that-correspond-to-different-intervention-strategies",
+    "title": "Develop interventions programs",
+    "section": "Example of intervention program that correspond to different intervention strategies",
+    "text": "Example of intervention program that correspond to different intervention strategies\n\n\n\n\n\n\n\n\n\n\nBridge identifier\nIntervention program\nintervention program\n\n\n1\n1\n\n\nB1\n7,29\n22\n\n\nB2\n1,24\n10\n\n\nB3\n1,23\n9\n\n\n\\(\\cdots\\)\n\\(\\cdots\\)\n\\(\\cdots\\)\n\n\n\\(\\cdots\\)\n\\(\\cdots\\)\n\\(\\cdots\\)"
+  },
+  {
+    "objectID": "posts/5_IntPrograms/index.html#how-to-evaluate-a-maintenance-intervention-program",
+    "href": "posts/5_IntPrograms/index.html#how-to-evaluate-a-maintenance-intervention-program",
+    "title": "Develop interventions programs",
+    "section": "How to evaluate a maintenance intervention program",
+    "text": "How to evaluate a maintenance intervention program\n\n\n\n\nIntervention Program 1\n\n\nIntervention Program 2\n\n\n\n\n\nCompare costs and effects on service overtime"
+  },
+  {
+    "objectID": "posts/5_IntPrograms/index.html#how-to-evaluate-a-maintenance-intervention-program-1",
+    "href": "posts/5_IntPrograms/index.html#how-to-evaluate-a-maintenance-intervention-program-1",
+    "title": "Develop interventions programs",
+    "section": "How to evaluate a maintenance intervention program",
+    "text": "How to evaluate a maintenance intervention program\n\n\n\n\nIntervention Program 1\n\n\nIntervention Program 2\n\n\n\n\n\nCompare the condition evolution overtime"
+  },
+  {
+    "objectID": "posts/5_IntPrograms/index.html#how-do-we-decide-which-intervention-to-postpone-if-we-cant-do-all-the-ones-we-want",
+    "href": "posts/5_IntPrograms/index.html#how-do-we-decide-which-intervention-to-postpone-if-we-cant-do-all-the-ones-we-want",
+    "title": "Develop interventions programs",
+    "section": "How do we decide which intervention to postpone if we can’t do all the ones we want?",
+    "text": "How do we decide which intervention to postpone if we can’t do all the ones we want?\n\n\n\n\\[\nB/C = \\frac{(C_{IS-R}^l-C_{IS-O}^l)+C_t}{C_{IS-O}^l}\n\\]"
+  },
+  {
+    "objectID": "posts/5_IntPrograms/index.html#how-do-we-decide-which-intervention-to-postpone-if-we-cant-do-all-the-ones-we-want-1",
+    "href": "posts/5_IntPrograms/index.html#how-do-we-decide-which-intervention-to-postpone-if-we-cant-do-all-the-ones-we-want-1",
+    "title": "Develop interventions programs",
+    "section": "How do we decide which intervention to postpone if we can’t do all the ones we want?",
+    "text": "How do we decide which intervention to postpone if we can’t do all the ones we want?\n\n\n\n\\[\nB/C = \\frac{(C_{IS-R}^l-C_{IS-O}^l)+C_t}{C_{IS-O}^l}\n\\]\n\n\nThe benefit could be taken as the difference between the long term costs if the reference maintenance intervention strategy was followed and the long term costs if the optimal maintenance intervention strategy was followed\nThis would lead to all objects of the same type in the same state having the same B/C ratio.  It would be nice, perhaps, to have the larger objects prioritised before the smaller objects.\nThis can be done by adding the cost of the intervention on the object to the benefit. I agree it is not strictly a benefit but it is a way of prioritizing the large objects that will bring us the most benefit over the small objects – There are many other ways.  I challenge you to use a better one!\nThe cost could be taken as the long term costs if the optimal maintenance intervention strategy was followed\n\\(C_t\\) : Cost in year \\(t\\)  \\(C_{IS-O}^l\\) : long term costs if selected maintenance intervention strategy followed"
+  },
+  {
+    "objectID": "posts/5_IntPrograms/index.html#example-of-intervention-program-that-correspond-to-different-intervention-strategies-1",
+    "href": "posts/5_IntPrograms/index.html#example-of-intervention-program-that-correspond-to-different-intervention-strategies-1",
+    "title": "Develop interventions programs",
+    "section": "Example of intervention program that correspond to different intervention strategies",
+    "text": "Example of intervention program that correspond to different intervention strategies\n\n\n\n\n\n\n\n\n\n\n\nBridge identifier\nIntervention program 1\nMaintenance cost\nB/C\n\n\n\n\nB1\n7, 29\n100, 100\n2.8, 2.8\n\n\nB2\n1, 24\n100, 100\n3.1, 3.1\n\n\nB3\n1, 23\n100, 100\n2.7, 2.7\n\n\n\n\nBudget limit = 150 CHF per year\nMeans we can’t do B2 and B3 in year 1\nThe B/C tells us it is more beneficial to us to do B2, so we postpone B3"
+  },
+  {
+    "objectID": "posts/5_IntPrograms/index.html#example-of-intervention-program-that-correspond-to-different-intervention-strategies-2",
+    "href": "posts/5_IntPrograms/index.html#example-of-intervention-program-that-correspond-to-different-intervention-strategies-2",
+    "title": "Develop interventions programs",
+    "section": "Example of intervention program that correspond to different intervention strategies",
+    "text": "Example of intervention program that correspond to different intervention strategies\n\n\n\n\n\n\n\n\n\n\n\nBridge identifier\nIntervention program 1\nMaintenance cost\nB/C\n\n\n\n\nB1\n7, 29\n100, 100\n2.8, 2.8\n\n\nB2\n1, 24\n100, 100\n3.1, 3.1\n\n\nB3\n1, 23\n100, 100\n2.7, 2.7\n\n\n\n\n\n\n\n\n\n\n\n\n\nBridge identifier\nIntervention program 1\nMaintenance cost\nB/C\n\n\n\n\nB1\n7, 29\n100, 100\n2.8, 2.8\n\n\nB2\n1, 24\n100, 100\n3.1, 3.1\n\n\nB3\n2, 23\n105, 100\n2.8, 2.7\n\n\n\n\nBudget limit = 150 CHF per year\nMeans we can’t do B2 and B3 in year 1\nThe B/C tells us it is more beneficial to us to do B2, so we postpone B3"
+  },
+  {
+    "objectID": "posts/5_IntPrograms/index.html#how-to-evaluate-a-maintenance-intervention-program-with-constraint",
+    "href": "posts/5_IntPrograms/index.html#how-to-evaluate-a-maintenance-intervention-program-with-constraint",
+    "title": "Develop interventions programs",
+    "section": "How to evaluate a maintenance intervention program (with constraint)",
+    "text": "How to evaluate a maintenance intervention program (with constraint)\n\n\n\n\nWithout constraint\n\n\nWith constraint\n\n\n\n\n\nCompare the costs and effects on service overtime"
+  },
+  {
+    "objectID": "posts/5_IntPrograms/index.html#how-to-evaluate-a-maintenance-intervention-program-with-constraint-1",
+    "href": "posts/5_IntPrograms/index.html#how-to-evaluate-a-maintenance-intervention-program-with-constraint-1",
+    "title": "Develop interventions programs",
+    "section": "How to evaluate a maintenance intervention program (with constraint)",
+    "text": "How to evaluate a maintenance intervention program (with constraint)\n\n\n\n\nWithout constraint\n\n\nWith constraint\n\n\n\n\n\nCompare the condition evolution overtime"
+  },
+  {
+    "objectID": "posts/5_IntPrograms/index.html",
+    "href": "posts/5_IntPrograms/index.html",
+    "title": "Develop interventions programs",
+    "section": "",
+    "text": "Intervention strategies\n\nInclude all interventions to be executed on an item taking into consideration of all possible conditions of the item\nAre developed without consideration of other sub-items, items or super-items\n\n\nIntervention programs\n\nInclude the interventions to be executed on items taking into consideration the specific conditions of the items\nAre developed with or without consideration of the other sub-items, items, or super-items\n\n\n\n\n\n\nThe interventions on an item include all interventions on the sub-items of the item.\nThe conditions of the item include the conditions of the sub-items of the item."
   }
 ]

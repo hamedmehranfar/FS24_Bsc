@@ -12,8 +12,8 @@
 
   <meta name="author" content="Hamed Mehranfar">
   <meta name="author" content="Yushu An">
-  <meta name="dcterms.date" content="2024-04-15">
-  <title>&nbsp;&nbsp;&nbsp;FS24 Bachelor theses @IM - Determine optimal interventions strategies</title>
+  <meta name="dcterms.date" content="2024-04-29">
+  <title>&nbsp;&nbsp;&nbsp;FS24 Bachelor theses @IM - Develop interventions programs</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -326,1260 +326,427 @@
       margin-right: 0; 
     }
   </style>
-  <script src="../../site_libs/quarto-diagram/mermaid.min.js"></script>
-  <script src="../../site_libs/quarto-diagram/mermaid-init.js"></script>
-  <link href="../../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 </head>
 <body class="quarto-light">
   <div class="reveal">
     <div class="slides">
 
 <section id="title-slide" data-background-image="SZU_bahn.jpg" data-background-opacity="0.2" data-background-size="cover" class="quarto-title-block center">
-  <h1 class="title">Determine optimal interventions strategies</h1>
+  <h1 class="title">Develop interventions programs</h1>
   <p class="subtitle">Estimation of financial needs and condition of infrastructure assets</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
-Hamed Mehranfar 
+<strong>Hamed Mehranfar</strong> 
 </div>
 </div>
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
-<strong>Yushu An</strong> 
+Yushu An 
 </div>
 </div>
 </div>
 
-  <p class="date">2024-04-15</p>
+  <p class="date">2024-04-29</p>
 </section>
-<section id="how-to-evaluate-possible-maintenance-intervention-strategies" class="slide level2">
-<h2>How to evaluate possible maintenance intervention strategies</h2>
-<div class="columns">
-<div class="column" style="width: 100%; font-size: 40%;">
-<div class="cell" data-reveal="true" data-fig-height="100px" data-fig-responsive="false" data-layout-align="center">
-<div class="cell-output-display">
-<div>
-<p></p><figure class=""><p></p>
-<div>
-<pre class="mermaid mermaid-js">flowchart TB
-    step1[&lt;font size=2&gt;Step 1: Estimate the state of each asset type at t=0]
-    step2[&lt;font size=2&gt;Step 2: Determine the maintenance intervention strategy]
-    step3[&lt;font size=2&gt;Step 3: Determine the steady state probabilities]
-    step4[&lt;font size=2&gt;Step 4: Determine the costs associated with the steady state]
-    step5[&lt;font size=2&gt;Step 5: Generate the view of condition and costs over time]
-    step6[&lt;font size=2&gt;Step 6: Repeat steps 2-5 for all strategies]
-    step7[&lt;font size=2&gt;Step 7: Compare results with goals and constraints]
-
-    step1 --&gt; step2
-    step2 --&gt; step3
-    step3 --&gt; step4
-    step4 --&gt; step5
-    step5 --&gt; step6
-    step6 --&gt; step7
-</pre>
-</div>
-<p></p></figure><p></p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="step-1-12" class="slide level2">
-<h2>Step 1 (1/2)</h2>
-<h3 id="estimate-the-state-of-each-asset-type-at-t0">Estimate the state of each asset type at <span class="math inline">\(t=0\)</span></h3>
+<section id="intervention-strategies-vs-intervention-programs" class="slide level2">
+<h2>Intervention Strategies vs Intervention Programs</h2>
 <div class="rows">
-<div class="row" style="width: 100%; font-size: 90%;">
-<p><br></p>
-<p>Example: Reinforced concrete bridges, in terms of surface area per state.</p>
-</div>
-<div class="row" style="width: 100%; font-size: 90%;">
-<table>
-<thead>
-<tr class="header">
-<th><strong>CS1</strong></th>
-<th><strong>CS2</strong></th>
-<th><strong>CS3</strong></th>
-<th><strong>CS4</strong></th>
-<th><strong>CS5</strong></th>
-<th><strong>Total</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>6’878</td>
-<td>4’149</td>
-<td>3’186</td>
-<td>2’570</td>
-<td>0</td>
-<td>16’782</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</section>
-<section id="step-1-22" class="slide level2">
-<h2>Step 1 (2/2)</h2>
-<h3 id="estimate-the-state-of-each-asset-type-at-t0-1">Estimate the state of each asset type at <span class="math inline">\(t=0\)</span></h3>
+<div class="row" style="width: 100%;">
 <div class="columns">
-<div class="column" style="width: 100%; font-size: 85%;">
-<p><br></p>
-<p>Once you know the objects you are considering, you can also determine their deterioration transition matrix</p>
-<table style="width:71%;">
-<colgroup>
-<col style="width: 15%">
-<col style="width: 11%">
-<col style="width: 11%">
-<col style="width: 11%">
-<col style="width: 11%">
-<col style="width: 11%">
-</colgroup>
-<tbody>
-<tr class="odd">
-<td rowspan="2"><span class="math inline">\(CS^{t}\)</span></td>
-<td colspan="5"><span class="math inline">\(CS^{t+1}\)</span></td>
-</tr>
-<tr class="even">
-<td><strong>1</strong></td>
-<td><strong>2</strong></td>
-<td><strong>3</strong></td>
-<td><strong>4</strong></td>
-<td><strong>5</strong></td>
-</tr>
-<tr class="odd">
-<td><strong>1</strong></td>
-<td>0.956</td>
-<td>0.044</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-</tr>
-<tr class="even">
-<td><strong>2</strong></td>
-<td>0</td>
-<td>0.968</td>
-<td>0.032</td>
-<td>0</td>
-<td>0</td>
-</tr>
-<tr class="odd">
-<td><strong>3</strong></td>
-<td>0</td>
-<td>0</td>
-<td>0.956</td>
-<td>0.044</td>
-<td>0</td>
-</tr>
-<tr class="even">
-<td><strong>4</strong></td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>0.944</td>
-<td>0.056</td>
-</tr>
-<tr class="odd">
-<td><strong>5</strong></td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>1</td>
-</tr>
-</tbody>
-</table>
+<div class="column" style="width: 40%; font-size: 70%;">
+<p>Intervention strategies</p>
+<ul>
+<li>Include <strong>all</strong> interventions to be executed on an item taking into consideration of <strong>all</strong> possible conditions of the item</li>
+<li>Are developed <strong>without consideration</strong> of other sub-items, items or super-items</li>
+</ul>
+</div><div class="column" style="width: 50%; font-size: 70%;">
+<p>Intervention programs</p>
+<ul>
+<li>Include <strong>the interventions</strong> to be executed on items taking into consideration the specific conditions of the items</li>
+<li>Are developed <strong>with or without consideration</strong> of the other sub-items, items, or super-items</li>
+</ul>
 </div>
 </div>
-</section>
-<section id="step-2" class="slide level2">
-<h2>Step 2</h2>
-<h3 id="determine-the-maintenance-intervention-strategy-to-be-considered-13">Determine the maintenance intervention strategy to be considered (1/3)</h3>
-<div class="rows">
-<div class="row" style="width: 100%; font-size: 90%;">
-<p><br></p>
-<p>Consider the maintenance intervention strategies as follows:</p>
-</div>
-<div class="row" style="width: 100%; font-size: 80%;">
-<p><br></p>
-<table>
-<colgroup>
-<col style="width: 6%">
-<col style="width: 18%">
-<col style="width: 18%">
-<col style="width: 18%">
-<col style="width: 18%">
-<col style="width: 18%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>IS</th>
-<th>CS1</th>
-<th>CS2</th>
-<th>CS3</th>
-<th>CS4</th>
-<th>CS5</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>1</td>
-<td>Do nothing</td>
-<td>Do nothing</td>
-<td>Do nothing</td>
-<td><span style="color: #215CAF">Rehabilitation</span></td>
-<td><span style="color: #B7352D;">Replacement</span></td>
-</tr>
-<tr class="even">
-<td>2</td>
-<td>Do nothing</td>
-<td>Do nothing</td>
-<td>Do nothing</td>
-<td>Do nothing</td>
-<td><span style="color: #B7352D;">Replacement</span></td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</section>
-<section id="step-2-1" class="slide level2">
-<h2>Step 2</h2>
-<h3 id="determine-the-maintenance-intervention-strategy-to-be-considered-23">Determine the maintenance intervention strategy to be considered (2/3)</h3>
-<div class="columns">
-<div class="column" style="width: 100%; font-size: 55%;">
-<p>In connection to the effectiveness vectors and unit costs of interventions</p>
-<table>
-<thead>
-<tr>
-<th rowspan="2">
-CS
-</th>
-<th rowspan="2">
-Interventions
-</th>
-<th colspan="5">
-CS
-</th>
-<th rowspan="2">
-Maintenance unit <br> costs (<span class="math inline">\(mu/m^2\)</span>)
-</th>
-<th rowspan="2">
-Travel time unit <br> costs (<span class="math inline">\(mu/m^2\)</span>)
-</th>
-<th rowspan="2">
-Accident unit <br> costs (<span class="math inline">\(mu/m^2\)</span>)
-</th>
-</tr>
-<tr>
-<th>
-1
-</th>
-<th>
-2
-</th>
-<th>
-3
-</th>
-<th>
-4
-</th>
-<th>
-5
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-1
-</td>
-<td>
-Do nothing
-</td>
-<td>
-0.96
-</td>
-<td>
-0.04
-</td>
-<td>
-0
-</td>
-<td>
-0
-</td>
-<td>
-0
-</td>
-<td>
-0
-</td>
-<td>
-0
-</td>
-<td>
-0
-</td>
-</tr>
-<tr>
-<td>
-2
-</td>
-<td>
-Do nothing
-</td>
-<td>
-0
-</td>
-<td>
-0.97
-</td>
-<td>
-0.03
-</td>
-<td>
-0
-</td>
-<td>
-0
-</td>
-<td>
-10
-</td>
-<td>
-0
-</td>
-<td>
-0
-</td>
-</tr>
-<tr>
-<td>
-3
-</td>
-<td>
-Do nothing
-</td>
-<td>
-0
-</td>
-<td>
-0
-</td>
-<td>
-0.96
-</td>
-<td>
-0.04
-</td>
-<td>
-0
-</td>
-<td>
-50
-</td>
-<td>
-0
-</td>
-<td>
-0
-</td>
-</tr>
-<tr>
-<td rowspan="3">
-4
-</td>
-<td>
-Do nothing
-</td>
-<td>
-0
-</td>
-<td>
-0
-</td>
-<td>
-0
-</td>
-<td>
-0.94
-</td>
-<td>
-0.06
-</td>
-<td>
-100
-</td>
-<td>
-1000
-</td>
-<td>
-100
-</td>
-</tr>
-<tr>
-<td>
-Rehabilitation
-</td>
-<td>
-0.75
-</td>
-<td>
-0.25
-</td>
-<td>
-0
-</td>
-<td>
-0
-</td>
-<td>
-0
-</td>
-<td>
-1000
-</td>
-<td>
-2000
-</td>
-<td>
-200
-</td>
-</tr>
-<tr>
-<td>
-Replacement
-</td>
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-0
-</td>
-<td>
-0
-</td>
-<td>
-0
-</td>
-<td>
-3500
-</td>
-<td>
-5000
-</td>
-<td>
-500
-</td>
-</tr>
-<tr>
-<td>
-5
-</td>
-<td>
-Replacement
-</td>
-<td>
-1
-</td>
-<td>
-0
-</td>
-<td>
-0
-</td>
-<td>
-0
-</td>
-<td>
-0
-</td>
-<td>
-3500
-</td>
-<td>
-5000
-</td>
-<td>
-500
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</section>
-<section id="step-2-2" class="slide level2">
-<h2>Step 2</h2>
-<h3 id="determine-the-maintenance-intervention-strategy-to-be-considered-33">Determine the maintenance intervention strategy to be considered (3/3)</h3>
-<div class="columns">
-<div class="column" style="width: 100%; font-size: 85%;">
-<p>Translation into the deterioration-intervention matrices</p>
-<table>
-<thead>
-<tr class="header">
-<th>CS</th>
-<th>1</th>
-<th>2</th>
-<th>3</th>
-<th>4</th>
-<th>5</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>1</td>
-<td>0.96</td>
-<td>0.4</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-</tr>
-<tr class="even">
-<td>2</td>
-<td>0</td>
-<td>0.97</td>
-<td>0.03</td>
-<td>0</td>
-<td>0</td>
-</tr>
-<tr class="odd">
-<td>3</td>
-<td>0</td>
-<td>0</td>
-<td>0.96</td>
-<td>0.04</td>
-<td>0</td>
-</tr>
-<tr class="even">
-<td>4</td>
-<td>0.75</td>
-<td>0.25</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-</tr>
-<tr class="odd">
-<td>5</td>
-<td>1</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</section>
-<section id="step-3" class="slide level2">
-<h2>Step 3</h2>
-<h3 id="determine-the-steady-state-probabilities-14">Determine the steady state probabilities (1/4)</h3>
-<div class="rows">
-<div class="row" style="width: 100%; font-size: 80%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="Markov.svg" style="width:60.0%"></p>
-<figcaption>Finite-state&nbsp;Markov&nbsp;chain</figcaption>
-</figure>
-</div>
-</div>
-<div class="row" style="width: 100%; font-size: 80%;">
-<p><span class="math display">\[P(S^{t+1}=j \mid S^t=i, S^{t-1}=i^{t-1},\ldots, S^1=i^1, S^0=i^0) \]</span> <span class="math display">\[= P(S^{t+1}=j \mid S^t=i) \]</span> <span class="math display">\[= P_{ij}\]</span></p>
-</div>
-</div>
-</section>
-<section id="step-3-1" class="slide level2">
-<h2>Step 3</h2>
-<h3 id="determine-the-steady-state-probabilities-24">Determine the steady state probabilities (2/4)</h3>
-<div class="rows">
-<div class="row" style="width: 100%; font-size: 70%;">
-<p>A one-step transition matrix, <span class="math inline">\(P\)</span>, with the same dimention as the deterioration matrix is needed, i.e., <span class="math inline">\(P_{K\times K}\)</span></p>
-</div>
-<div class="row" style="width: 100%; font-size: 65%;">
-<table style="width:92%;">
-<colgroup>
-<col style="width: 15%">
-<col style="width: 15%">
-<col style="width: 15%">
-<col style="width: 15%">
-<col style="width: 15%">
-<col style="width: 15%">
-</colgroup>
-<tbody>
-<tr class="odd">
-<td rowspan="2"><span class="math inline">\(S^t\)</span></td>
-<td colspan="5"><span class="math inline">\(S^{t+1}\)</span></td>
-</tr>
-<tr class="even">
-<td>1</td>
-<td>2</td>
-<td>3</td>
-<td><span class="math inline">\(\cdots\)</span></td>
-<td>k</td>
-</tr>
-<tr class="odd">
-<td>1</td>
-<td><span class="math inline">\(p_{11}\)</span></td>
-<td><span class="math inline">\(p_{12}\)</span></td>
-<td><span class="math inline">\(p_{13}\)</span></td>
-<td><span class="math inline">\(\cdots\)</span></td>
-<td><span class="math inline">\(p_{1k}\)</span></td>
-</tr>
-<tr class="even">
-<td>2</td>
-<td><span class="math inline">\(p_{21}\)</span></td>
-<td><span class="math inline">\(p_{22}\)</span></td>
-<td><span class="math inline">\(p_{23}\)</span></td>
-<td><span class="math inline">\(\cdots\)</span></td>
-<td><span class="math inline">\(p_{2k}\)</span></td>
-</tr>
-<tr class="odd">
-<td>3</td>
-<td><span class="math inline">\(p_{31}\)</span></td>
-<td><span class="math inline">\(p_{32}\)</span></td>
-<td><span class="math inline">\(p_{33}\)</span></td>
-<td><span class="math inline">\(\cdots\)</span></td>
-<td><span class="math inline">\(p_{3k}\)</span></td>
-</tr>
-<tr class="even">
-<td><span class="math inline">\(\vdots\)</span></td>
-<td><span class="math inline">\(\vdots\)</span></td>
-<td><span class="math inline">\(\vdots\)</span></td>
-<td><span class="math inline">\(\vdots\)</span></td>
-<td><span class="math inline">\(\vdots\)</span></td>
-<td><span class="math inline">\(\vdots\)</span></td>
-</tr>
-<tr class="odd">
-<td>k</td>
-<td><span class="math inline">\(p_{k1}\)</span></td>
-<td><span class="math inline">\(p_{k2}\)</span></td>
-<td><span class="math inline">\(p_{k3}\)</span></td>
-<td><span class="math inline">\(\cdots\)</span></td>
-<td><span class="math inline">\(p_{kk}\)</span></td>
-</tr>
-</tbody>
-</table>
 </div>
 <div class="row" style="width: 100%; font-size: 70%;">
-<p><span class="math inline">\(\quad p_{ij} \geq 0 \qquad \qquad\)</span> <span class="math inline">\(\sum_{j=1}^{K} p_{ij}=1\)</span></p>
-</div>
-</div>
-</section>
-<section id="step-3-2" class="slide level2" data-auto-animate="true">
-<h2 data-id="quarto-animate-title">Step 3</h2>
-<h3 id="determine-the-steady-state-probabilities-34">Determine the steady state probabilities (3/4)</h3>
-<div class="rows">
-<div class="row" style="width: 100%; font-size: 80%;">
-<p>Steady State Probabilites: <span class="math display">\[
-\lim_{n \rightarrow \infty} p_{ij}^n = \pi_j \quad ; \quad \pi_j \geq 0 \quad\textbf{&amp;} \quad \sum_{k=1}^{K} \pi_j =1
-\]</span></p>
-</div>
-</div>
-</section>
-<section id="step-3-3" class="slide level2" data-auto-animate="true">
-<h2 data-id="quarto-animate-title">Step 3</h2>
-<h3 id="determine-the-steady-state-probabilities-34-1">Determine the steady state probabilities (3/4)</h3>
-<div class="rows">
-<div class="row" style="width: 100%; font-size: 80%;">
-<p>Steady State Probabilites: <span class="math display">\[
-\lim_{n \rightarrow \infty} p_{ij}^n = \pi_j \quad ; \quad \pi_j \geq 0 \quad\textbf{&amp;} \quad \sum_{k=1}^{K} \pi_j =1
-\]</span></p>
-<p>Steady states are derermined using the follownig formula: <span class="math display">\[
-\pi_j = \sum_{k=1}^{K} \pi_i \cdot p_{ij} \qquad \forall\quad j=1,2,3,\cdots,k \quad\backepsilon \sum_{k=1}^{K} \pi_i=1
-\]</span></p>
-</div>
-</div>
-</section>
-<section id="step-3-4" class="slide level2" data-auto-animate="true">
-<h2 data-id="quarto-animate-title">Step 3</h2>
-<h3 id="determine-the-steady-state-probabilities-44">Determine the steady state probabilities (4/4)</h3>
-<table style="width:75%;">
-<colgroup>
-<col style="width: 11%">
-<col style="width: 13%">
-<col style="width: 13%">
-<col style="width: 13%">
-<col style="width: 13%">
-<col style="width: 8%">
-</colgroup>
-<tbody>
-<tr class="odd">
-<td rowspan="2">CS</td>
-<td colspan="5">Contributing bits to <span class="math inline">\(\pi_j\)</span></td>
-</tr>
-<tr class="even">
-<td>1</td>
-<td>2</td>
-<td>3</td>
-<td>4</td>
-<td>5</td>
-</tr>
-<tr class="odd">
-<td>1</td>
-<td>0.226</td>
-<td>0.010</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-</tr>
-<tr class="even">
-<td>2</td>
-<td>0</td>
-<td>0.420</td>
-<td>0.014</td>
-<td>0</td>
-<td>0</td>
-</tr>
-<tr class="odd">
-<td>3</td>
-<td>0</td>
-<td>0</td>
-<td>0.302</td>
-<td>0.014</td>
-<td>0</td>
-</tr>
-<tr class="even">
-<td>4</td>
-<td>0.010</td>
-<td>0.003</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-</tr>
-<tr class="odd">
-<td>5</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="step-3-5" class="slide level2" data-auto-animate="true">
-<h2 data-id="quarto-animate-title">Step 3</h2>
-<h3 id="determine-the-steady-state-probabilities-44-1">Determine the steady state probabilities (4/4)</h3>
-<table style="width:95%;">
-<colgroup>
-<col style="width: 8%">
-<col style="width: 10%">
-<col style="width: 10%">
-<col style="width: 10%">
-<col style="width: 10%">
-<col style="width: 6%">
-<col style="width: 37%">
-</colgroup>
-<tbody>
-<tr class="odd">
-<td rowspan="2">CS</td>
-<td colspan="5">Contributing bits to <span class="math inline">\(\pi_j\)</span></td>
-<td rowspan="2"><span class="math inline">\(\pi_j\)</span></td>
-</tr>
-<tr class="even">
-<td>1</td>
-<td>2</td>
-<td>3</td>
-<td>4</td>
-<td>5</td>
-</tr>
-<tr class="odd">
-<td>1</td>
-<td>0.226</td>
-<td>0.010</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td><span style="color: #215CAF"><strong>0.237</strong></span></td>
-</tr>
-<tr class="even">
-<td>2</td>
-<td>0</td>
-<td>0.420</td>
-<td>0.014</td>
-<td>0</td>
-<td>0</td>
-<td><span style="color: #215CAF"><strong>0.434</strong></span></td>
-</tr>
-<tr class="odd">
-<td>3</td>
-<td>0</td>
-<td>0</td>
-<td>0.302</td>
-<td>0.014</td>
-<td>0</td>
-<td><span style="color: #215CAF"><strong>0.316</strong></span></td>
-</tr>
-<tr class="even">
-<td>4</td>
-<td>0.010</td>
-<td>0.003</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td><span style="color: #215CAF"><strong>0.014</strong></span></td>
-</tr>
-<tr class="odd">
-<td>5</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td><span style="color: #215CAF"><strong>0</strong></span></td>
-</tr>
-<tr class="even">
-<td><strong>Sum</strong></td>
-<td><strong>0.237</strong></td>
-<td><strong>0.434</strong></td>
-<td><strong>0.316</strong></td>
-<td><strong>0.014</strong></td>
-<td><strong>0</strong></td>
-<td><strong>1</strong></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="step-4" class="slide level2">
-<h2>Step 4</h2>
-<h3 id="determine-the-costs-associated-with-the-steady-state-12">Determine the costs associated with the steady state (1/2)</h3>
-<div class="rows">
-<div class="row" style="width: 100%; font-size: 80%;">
-<p>If <span class="math inline">\(N\)</span> equals a large number of transitions, and <span class="math inline">\(X_i\)</span> is the number of times an asset enters state <span class="math inline">\(i\)</span></p>
-<p><span class="math display">\[
-N \rightarrow\infty\quad,\frac{X_i}{N}\rightarrow \pi_i
-\]</span> <span class="math display">\[
-\eta_\infty=\sum_{i=1}^{K}\pi_i\cdot C(i) \qquad\qquad C(i)=C(i)^{bI}+C(i)^{dI}
-\]</span></p>
-</div>
-</div>
-</section>
-<section id="step-4-1" class="slide level2">
-<h2>Step 4</h2>
-<h3 id="determine-the-costs-associated-with-the-steady-state-22">Determine the costs associated with the steady state (2/2)</h3>
-<div class="columns">
-<div class="column" style="width: 100%; font-size: 60%;">
-<table style="width:94%;">
-<colgroup>
-<col style="width: 5%">
-<col style="width: 6%">
-<col style="width: 6%">
-<col style="width: 6%">
-<col style="width: 6%">
-<col style="width: 4%">
-<col style="width: 24%">
-<col style="width: 8%">
-<col style="width: 8%">
-<col style="width: 7%">
-<col style="width: 7%">
-</colgroup>
-<tbody>
-<tr class="odd">
-<td rowspan="2">CS</td>
-<td colspan="5">Contributing bits to <span class="math inline">\(\pi_j\)</span></td>
-<td rowspan="2"><span class="math inline">\(\pi_j\)</span></td>
-<td rowspan="2">Maintenance Unit Costs <span class="math inline">\((mu/m^2)\)</span></td>
-<td rowspan="2">Travel Time Unit Costs <span class="math inline">\((mu/m^2)\)</span></td>
-<td rowspan="2">Accident Unit Costs <span class="math inline">\((mu/m^2)\)</span></td>
-<td rowspan="2">Total Costs <span class="math inline">\((mu/m^2)\)</span></td>
-</tr>
-<tr class="even">
-<td>1</td>
-<td>2</td>
-<td>3</td>
-<td>4</td>
-<td>5</td>
-</tr>
-<tr class="odd">
-<td>1</td>
-<td>0.226</td>
-<td>0.010</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td><span style="color: #215CAF"><strong>0.237</strong></span></td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-</tr>
-<tr class="even">
-<td>2</td>
-<td>0</td>
-<td>0.420</td>
-<td>0.014</td>
-<td>0</td>
-<td>0</td>
-<td><span style="color: #215CAF"><strong>0.434</strong></span></td>
-<td>4.34</td>
-<td>0</td>
-<td>0</td>
-<td>4.34</td>
-</tr>
-<tr class="odd">
-<td>3</td>
-<td>0</td>
-<td>0</td>
-<td>0.302</td>
-<td>0.014</td>
-<td>0</td>
-<td><span style="color: #215CAF"><strong>0.316</strong></span></td>
-<td>15.78</td>
-<td>0</td>
-<td>0</td>
-<td>15.78</td>
-</tr>
-<tr class="even">
-<td>4</td>
-<td>0.010</td>
-<td>0.003</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td><span style="color: #215CAF"><strong>0.014</strong></span></td>
-<td>13.88</td>
-<td>27.77</td>
-<td>2.78</td>
-<td>44.43</td>
-</tr>
-<tr class="odd">
-<td>5</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td><span style="color: #215CAF"><strong>0</strong></span></td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-</tr>
-<tr class="even">
-<td><strong>Sum</strong></td>
-<td><strong>0.237</strong></td>
-<td><strong>0.434</strong></td>
-<td><strong>0.316</strong></td>
-<td><strong>0.014</strong></td>
-<td><strong>0</strong></td>
-<td><strong>1</strong></td>
-<td><strong>1</strong></td>
-<td><strong>27.77</strong></td>
-<td><strong>2.78</strong></td>
-<td><strong>64.55</strong></td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</section>
-<section id="step-5" class="slide level2">
-<h2>Step 5</h2>
-<h3 id="generate-the-view-of-how-the-condition-and-the-costs-evolve-12">Generate the view of how the condition and the costs evolve (1/2)</h3>
-<div class="columns">
-<div class="column" style="width: 60%; font-size: 100%;">
-<p><img data-src="S17.svg" style="height:60.0%"></p>
-</div><div class="column" style="width: 40%; font-size: 60%;">
-<p><br></p>
-<table>
-<thead>
-<tr class="header">
-<th>Asset <br> state</th>
-<th>p</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>1</td>
-<td>0.237</td>
-</tr>
-<tr class="even">
-<td>2</td>
-<td>0.434</td>
-</tr>
-<tr class="odd">
-<td>3</td>
-<td>0.316</td>
-</tr>
-<tr class="even">
-<td>4</td>
-<td>0.014</td>
-</tr>
-<tr class="odd">
-<td>5</td>
-<td>0.000</td>
-</tr>
-<tr class="even">
-<td><strong>Sum</strong></td>
-<td><strong>1.000</strong></td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</section>
-<section id="step-5-1" class="slide level2">
-<h2>Step 5</h2>
-<h3 id="generate-the-view-of-how-the-condition-and-the-costs-evolve-22">Generate the view of how the condition and the costs evolve (2/2)</h3>
-<div class="columns">
-<div class="column" style="width: 60%; font-size: 100%;">
-<p><img data-src="S18.svg" style="height:60.0%"></p>
-</div><div class="column" style="width: 40%; font-size: 60%;">
-<div class="rows">
-<div class="row" style="width: 100%; font-size: 60%;">
-<p><strong>Steady State</strong></p>
-<table>
-<colgroup>
-<col style="width: 20%">
-<col style="width: 40%">
-<col style="width: 40%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Asset <br> state</th>
-<th>Maintenance <br> Unit Costs <br> <span class="math inline">\((mu/m^2)\)</span></th>
-<th>Travel Time <br> Costs <span class="math inline">\((mu/m^2)\)</span></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>1</td>
-<td>0.00</td>
-<td>0.00</td>
-</tr>
-<tr class="even">
-<td>2</td>
-<td>4.34</td>
-<td>0.00</td>
-</tr>
-<tr class="odd">
-<td>3</td>
-<td>15.75</td>
-<td>0.00</td>
-</tr>
-<tr class="even">
-<td>4</td>
-<td>13.88</td>
-<td>27.77</td>
-</tr>
-<tr class="odd">
-<td>5</td>
-<td>0.00</td>
-<td>0.00</td>
-</tr>
-<tr class="even">
-<td><strong>Sum</strong></td>
-<td><strong>34.00</strong></td>
-<td><strong>27.77</strong></td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="row" style="width: 100%; font-size: 60%;">
-<table>
-<colgroup>
-<col style="width: 20%">
-<col style="width: 40%">
-<col style="width: 40%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Asset <br> state</th>
-<th>Accident <br> Costs <span class="math inline">\((mu/m^2)\)</span></th>
-<th>Total <br> Costs <span class="math inline">\((mu/m^2)\)</span></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>1</td>
-<td>0.00</td>
-<td>0.00</td>
-</tr>
-<tr class="even">
-<td>2</td>
-<td>0.00</td>
-<td>4.34</td>
-</tr>
-<tr class="odd">
-<td>3</td>
-<td>0.00</td>
-<td>15.78</td>
-</tr>
-<tr class="even">
-<td>4</td>
-<td>2.78</td>
-<td>44.43</td>
-</tr>
-<tr class="odd">
-<td>5</td>
-<td>0.00</td>
-<td>0.00</td>
-</tr>
-<tr class="even">
-<td><strong>Sum</strong></td>
-<td><strong>2.78</strong></td>
-<td><strong>64.55</strong></td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="step-6" class="slide level2">
-<h2>Step 6</h2>
-<h3 id="repeat-steps-2-5-for-all-maintenance-intervention-strategies">Repeat steps 2-5 for all maintenance intervention strategies</h3>
-<div class="columns">
-<div class="column" style="width: 60%; font-size: 60%;">
-<p>At least two interventions strategies for each asset subcategory.</p>
 <ul>
-<li>Asset
-<ul>
-<li>Category 1
-<ul>
-<li>Intervention strategy 1</li>
-<li>Intervention strategy 2</li>
-</ul></li>
-<li>Category 2
-<ul>
-<li>Intervention strategy 1</li>
-<li>Intervention strategy 2</li>
-<li>Intervention strategy 3</li>
-</ul></li>
-<li>Category 3
-<ul>
-<li>Intervention strategy 1</li>
-<li>Intervention strategy 2</li>
-</ul></li>
-</ul></li>
+<li>The interventions on an item include all interventions on the sub-items of the item.</li>
+<li>The conditions of the item include the conditions of the sub-items of the item.</li>
 </ul>
 </div>
 </div>
 </section>
-<section id="step-7" class="slide level2">
-<h2>Step 7</h2>
-<h3 id="compare-the-results-with-respect-to-your-goals-and-constraints-12">Compare the results with respect to your goals and constraints (1/2)</h3>
+<section id="how-to-construct-a-maintenance-intervention-program" class="slide level2">
+<h2>How to construct a maintenance intervention program</h2>
 <div class="rows">
-<div class="row" style="width: 100%; font-size: 60%;">
+<div class="row" style="width: 100%; font-size: 80%;">
+<p>The construction of a maintenance intervention program can be:</p>
+<ul>
+<li>Derived directly from the maintenance intervention strategy</li>
+<li>Based directly on expert opinion</li>
+<li>Done by using agency rules</li>
+</ul>
+</div>
+<div class="row" style="width: 100%; font-size: 80%;">
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Example agency rules</strong></p>
+</div>
+<div class="callout-content">
+<ul>
+<li><p>If less than 5% of the surface area of a bridge requires an intervention according to the intervention strategy to be followed, no intervention is performed (to ensure interventions are not performed on very small parts of bridges).</p></li>
+<li><p>If more than 5% of the surface area of a structure requires an intervention according to the intervention strategy to be followed, than interventions for all parts of the bridge that are in states 3, 4 and 5 are performed (to ensure a sufficient return period between interventions)</p></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="how-to-construct-a-maintenance-intervention-program-1" class="slide level2">
+<h2>How to construct a maintenance intervention program</h2>
 <div class="columns">
-<div class="column" style="width: 40%; font-size: 60%;">
-<p><img data-src="S21_1.svg" style="height:40.0%"></p>
-</div><div class="column" style="width: 40%; font-size: 60%;">
-<p><img data-src="S21_2.svg" style="height:40.0%"></p>
-</div>
-</div>
-</div>
-<div class="row" style="width: 100%; font-size: 60%;">
+<div class="column" style="width: 100%; font-size: 55%;">
 <table>
+<colgroup>
+<col style="width: 1%">
+<col style="width: 99%">
+</colgroup>
 <thead>
 <tr class="header">
-<th>Costs <span class="math inline">\((mu/m^2)\)</span></th>
-<th>IS1</th>
-<th>IS2</th>
+<th>Step</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Maintenance</td>
-<td>18’782</td>
-<td>39’030</td>
+<td>1</td>
+<td>Determine the time intervals and time period in which maintenance interventions are to be executed.</td>
 </tr>
 <tr class="even">
-<td>Travel time</td>
-<td>18’510</td>
-<td>131’263</td>
+<td>2</td>
+<td>Estimate the percentage of each item in each state at <span class="math inline">\(t=0\)</span>.</td>
 </tr>
 <tr class="odd">
-<td>Accident</td>
-<td>1’851</td>
-<td>13’126</td>
+<td>3</td>
+<td>Determine the probable maintenance interventions to be executed at t in which a maintenance intervention is to be executed without consideration of other items (based on actual or expected state of items).</td>
 </tr>
 <tr class="even">
-<td><strong>Total</strong></td>
-<td><strong>40’142</strong></td>
-<td><strong>183’419</strong></td>
+<td>4</td>
+<td>Determine the maintenance interventions to be executed at each t in which a maintenance intervention is to be executed with consideration of other items (based on actual or expected state of items and agency rules). <span style="color:#B7352D;">(Attention: Not covered in Excel spread sheet explicitly)</span></td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Estimate probable costs of maintenance interventions to be executed at time <span class="math inline">\(t\)</span>.</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Estimate the probable state of each item at <span class="math inline">\(t= t+1\)</span>.</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>Repeat steps 2 to 7 (with t= t+ 1) until the probable states of all items, the maintenance interventions to be executed, and maintenance intervention costs are determined over the specified time period (a first intervention program exists).</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>Verify all constraints at time t, e.g., budget limit in each time interval.</td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td>Determine the maintenance interventions to be included in the maintenance intervention program so that all constraints are satisfied.</td>
 </tr>
 </tbody>
 </table>
 </div>
 </div>
 </section>
-<section id="step-7-1" class="slide level2">
-<h2>Step 7</h2>
-<h3 id="compare-the-results-with-respect-to-your-goals-and-constraints-22">Compare the results with respect to your goals and constraints (2/2)</h3>
+<section id="example-of-intervention-program-that-correspond-to-different-intervention-strategies" class="slide level2">
+<h2>Example of intervention program that correspond to different intervention strategies</h2>
 <div class="rows">
-<div class="row" style="width: 100%; font-size: 60%;">
+<div class="row" style="width: 100%; font-size: 90%;">
+<table style="width:99%;">
+<colgroup>
+<col style="width: 30%">
+<col style="width: 34%">
+<col style="width: 34%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td rowspan="2"><strong>Bridge identifier</strong></td>
+<td><strong>Intervention program</strong></td>
+<td><strong>intervention program</strong></td>
+</tr>
+<tr class="even">
+<td>1</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td>B1</td>
+<td>7,29</td>
+<td>22</td>
+</tr>
+<tr class="even">
+<td>B2</td>
+<td>1,24</td>
+<td>10</td>
+</tr>
+<tr class="odd">
+<td>B3</td>
+<td>1,23</td>
+<td>9</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(\cdots\)</span></td>
+<td><span class="math inline">\(\cdots\)</span></td>
+<td><span class="math inline">\(\cdots\)</span></td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(\cdots\)</span></td>
+<td><span class="math inline">\(\cdots\)</span></td>
+<td><span class="math inline">\(\cdots\)</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+<section id="how-to-evaluate-a-maintenance-intervention-program" class="slide level2">
+<h2>How to evaluate a maintenance intervention program</h2>
+<div class="rows">
+<div class="row">
 <div class="columns">
-<div class="column" style="width: 40%; font-size: 60%;">
-<p><img data-src="S22_1.svg" style="height:40.0%"></p>
-</div><div class="column" style="width: 40%; font-size: 60%;">
-<p><img data-src="S22_2.svg" style="height:40.0%"></p>
+<div class="column" style="width:50%; font-size: 80%;">
+<p>Intervention Program 1</p>
+<p><img data-src="S6_1.svg"></p>
+</div><div class="column" style="width: 50%; font-size: 80%;">
+<p>Intervention Program 2</p>
+<p><img data-src="S6_2.svg"></p>
 </div>
 </div>
 </div>
-<div class="row" style="width: 100%; font-size: 50%;">
+<div class="row" style="font-size: 80%; text-align: center;">
+<p><span style="color:#A7117A;">Compare costs and effects on service overtime</span></p>
+</div>
+</div>
+</section>
+<section id="how-to-evaluate-a-maintenance-intervention-program-1" class="slide level2">
+<h2>How to evaluate a maintenance intervention program</h2>
+<div class="rows">
+<div class="row">
+<div class="columns">
+<div class="column" style="width:50%; font-size: 80%;">
+<p>Intervention Program 1</p>
+<p><img data-src="S7_1.svg"></p>
+</div><div class="column" style="width: 50%; font-size: 80%;">
+<p>Intervention Program 2</p>
+<p><img data-src="S7_2.svg"></p>
+</div>
+</div>
+</div>
+<div class="row" style="font-size: 80%; text-align: center;">
+<p><span style="color:#A7117A;">Compare the condition evolution overtime</span></p>
+</div>
+</div>
+</section>
+<section id="how-do-we-decide-which-intervention-to-postpone-if-we-cant-do-all-the-ones-we-want" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">How do we decide which intervention to postpone if we can’t do all the ones we want?</h2>
+<div class="columns">
+<div class="column" style="width:100%; font-size: 70%;">
+<p><br><br><br></p>
+<p><span class="math display">\[
+B/C = \frac{(C_{IS-R}^l-C_{IS-O}^l)+C_t}{C_{IS-O}^l}
+\]</span></p>
+</div>
+</div>
+</section>
+<section id="how-do-we-decide-which-intervention-to-postpone-if-we-cant-do-all-the-ones-we-want-1" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">How do we decide which intervention to postpone if we can’t do all the ones we want?</h2>
+<div class="columns">
+<div class="column" style="width:100%; font-size: 70%;">
+<p><br><br><br></p>
+<p><span class="math display">\[
+B/C = \frac{(C_{IS-R}^l-C_{IS-O}^l)+C_t}{C_{IS-O}^l}
+\]</span></p>
+</div>
+</div>
+<p><span class="absolute" style="font-size: 50%;top: 250px; left: 0px; width: 350px; height: 300px; ">The benefit could be taken as the difference between the long term costs if the reference maintenance intervention strategy was followed and the long term costs if the optimal maintenance intervention strategy was followed</span></p>
+<p><span class="absolute" style="font-size: 50%;top: 250px; left: 450px; width: 550px; height: 300px; ">This would lead to all objects of the same type in the same state having the same B/C ratio. <br> It would be nice, perhaps, to have the larger objects prioritised before the smaller objects.</span></p>
+<p><span class="absolute" style="font-size: 50%;top: 380px; left: 750px; width: 350px; height: 300px; ">This can be done by adding the cost of the intervention on the object to the benefit. I agree it is not strictly a benefit but it is a way of prioritizing the large objects that will bring us the most benefit over the small objects – There are many other ways. <br> I challenge you to use a better one!</span></p>
+<p><span class="absolute" style="font-size: 50%;top: 650px; left: 0px; width: 940px; height: 300px; ">The cost could be taken as the long term costs if the optimal maintenance intervention strategy was followed</span></p>
+<p><span class="absolute" style="font-size: 50%;top: 500px; left: 0px; width: 370px; height: 300px; "><span class="math inline">\(C_t\)</span> : Cost in year <span class="math inline">\(t\)</span> <br> <span class="math inline">\(C_{IS-O}^l\)</span> : long term costs if selected maintenance intervention strategy followed</span></p>
+</section>
+<section id="example-of-intervention-program-that-correspond-to-different-intervention-strategies-1" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">Example of intervention program that correspond to different intervention strategies</h2>
+<div class="columns">
+<div class="column" style="width:80%; font-size: 70%;">
 <table>
 <colgroup>
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
-<col style="width: 20%">
+<col style="width: 25%">
+<col style="width: 30%">
+<col style="width: 24%">
+<col style="width: 18%">
 </colgroup>
 <thead>
 <tr class="header">
-<th>Steady state</th>
-<th>IS1 (prob.)</th>
-<th>IS1 <span class="math inline">\((m^2)\)</span></th>
-<th>IS2 (prob.)</th>
-<th>IS2 <span class="math inline">\((m^2)\)</span></th>
+<th>Bridge identifier</th>
+<th>Intervention program 1</th>
+<th>Maintenance cost</th>
+<th>B/C</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>1</td>
-<td><span style="color: #215CAF"><strong>0.237</strong></span></td>
-<td>3’972</td>
-<td><span style="color: #215CAF"><strong>0.238</strong></span></td>
-<td>3’991</td>
+<td>B1</td>
+<td>7, 29</td>
+<td>100, 100</td>
+<td>2.8, 2.8</td>
 </tr>
 <tr class="even">
-<td>2</td>
-<td><span style="color: #215CAF"><strong>0.434</strong></span></td>
-<td>7’281</td>
-<td><span style="color: #215CAF"><strong>0.327</strong></span></td>
-<td>5’488</td>
+<td>B2</td>
+<td>1, 24</td>
+<td>100, 100</td>
+<td>3.1, 3.1</td>
 </tr>
 <tr class="odd">
-<td>3</td>
-<td><span style="color: #215CAF"><strong>0.316</strong></span></td>
-<td>5’296</td>
-<td><span style="color: #215CAF"><strong>0.238</strong></span></td>
-<td>3’991</td>
-</tr>
-<tr class="even">
-<td>4</td>
-<td><span style="color: #215CAF"><strong>0.014</strong></span></td>
-<td>233</td>
-<td><span style="color: #215CAF"><strong>0.187</strong></span></td>
-<td>3’136</td>
-</tr>
-<tr class="odd">
-<td>5</td>
-<td><span style="color: #215CAF"><strong>0.000</strong></span></td>
-<td>0</td>
-<td><span style="color: #215CAF"><strong>0.010</strong></span></td>
-<td>176</td>
+<td>B3</td>
+<td>1, 23</td>
+<td>100, 100</td>
+<td>2.7, 2.7</td>
 </tr>
 </tbody>
 </table>
+</div><div class="column" style="width:20%; font-size: 60%;">
+<p>Budget limit = 150 CHF per year</p>
+<p>Means we can’t do B2 and B3 in year 1</p>
+<p>The B/C tells us it is more beneficial to us to do B2, so we postpone B3</p>
+</div>
+</div>
+</section>
+<section id="example-of-intervention-program-that-correspond-to-different-intervention-strategies-2" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">Example of intervention program that correspond to different intervention strategies</h2>
+<div class="columns">
+<div class="column" style="width:80%; font-size: 70%;">
+<table>
+<colgroup>
+<col style="width: 25%">
+<col style="width: 30%">
+<col style="width: 24%">
+<col style="width: 18%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Bridge identifier</th>
+<th>Intervention program 1</th>
+<th>Maintenance cost</th>
+<th>B/C</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>B1</td>
+<td>7, 29</td>
+<td>100, 100</td>
+<td>2.8, 2.8</td>
+</tr>
+<tr class="even">
+<td>B2</td>
+<td>1, 24</td>
+<td>100, 100</td>
+<td>3.1, 3.1</td>
+</tr>
+<tr class="odd">
+<td>B3</td>
+<td>1, 23</td>
+<td>100, 100</td>
+<td>2.7, 2.7</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<table>
+<colgroup>
+<col style="width: 25%">
+<col style="width: 30%">
+<col style="width: 24%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Bridge identifier</th>
+<th>Intervention program 1</th>
+<th>Maintenance cost</th>
+<th>B/C</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>B1</td>
+<td>7, 29</td>
+<td>100, 100</td>
+<td>2.8, 2.8</td>
+</tr>
+<tr class="even">
+<td>B2</td>
+<td>1, 24</td>
+<td>100, 100</td>
+<td>3.1, 3.1</td>
+</tr>
+<tr class="odd">
+<td>B3</td>
+<td><strong>2</strong>, 23</td>
+<td><strong>105</strong>, 100</td>
+<td><strong>2.8</strong>, 2.7</td>
+</tr>
+</tbody>
+</table>
+</div><div class="column" style="width:20%; font-size: 60%;">
+<p>Budget limit = 150 CHF per year</p>
+<p>Means we can’t do B2 and B3 in year 1</p>
+<p>The B/C tells us it is more beneficial to us to do B2, so we postpone B3</p>
+</div>
+</div>
+</section>
+<section id="how-to-evaluate-a-maintenance-intervention-program-with-constraint" class="slide level2">
+<h2>How to evaluate a maintenance intervention program (with constraint)</h2>
+<div class="rows">
+<div class="row">
+<div class="columns">
+<div class="column" style="width:50%; font-size: 80%;">
+<p>Without constraint</p>
+<p><img data-src="S11_1.svg"></p>
+</div><div class="column" style="width: 50%; font-size: 80%;">
+<p>With constraint</p>
+<p><img data-src="S11_2.svg"></p>
+</div>
+</div>
+</div>
+<div class="row" style="font-size: 80%; text-align: center;">
+<p><span style="color:#A7117A;">Compare the costs and effects on service overtime</span></p>
+</div>
+</div>
+</section>
+<section id="how-to-evaluate-a-maintenance-intervention-program-with-constraint-1" class="slide level2">
+<h2>How to evaluate a maintenance intervention program (with constraint)</h2>
+<div class="rows">
+<div class="row">
+<div class="columns">
+<div class="column" style="width:50%; font-size: 80%;">
+<p>Without constraint</p>
+<p><img data-src="S12_1.svg"></p>
+</div><div class="column" style="width: 50%; font-size: 80%;">
+<p>With constraint</p>
+<p><img data-src="S12_2.svg"></p>
+</div>
+</div>
+</div>
+<div class="row" style="font-size: 80%; text-align: center;">
+<p><span style="color:#A7117A;">Compare the condition evolution overtime</span></p>
 </div>
 </div>
 </section>
@@ -1588,15 +755,15 @@ N \rightarrow\infty\quad,\frac{X_i}{N}\rightarrow \pi_i
 <div class="columns">
 <div class="column" style="width: 100%; font-size: 80%;">
 <ul>
-<li>This session:
-<ul>
-<li>Finalize possible interventions and estimated intervention cost</li>
-<li>If possible, determine optimal intervention strategy</li>
-</ul></li>
-<li>Next session(s):
+<li>Next sessions:
 <ul>
 <li>Finalize determining optimal intervention strategy for every asset category</li>
 <li>Develop intervention programs</li>
+</ul></li>
+<li>Submission of all materials
+<ul>
+<li>PolyBox</li>
+<li>Friday 31/05/2024</li>
 </ul></li>
 </ul>
 </div>
@@ -1607,7 +774,7 @@ N \rightarrow\infty\quad,\frac{X_i}{N}\rightarrow \pi_i
 <p><strong>Questions?</strong></p>
 <div class="columns">
 <div class="column" style="width: 50%; font-size: 50%;">
-<p><br> <br> <br> Yushu An<br> Doctoral student<br> yushan@ethz.ch<br> <br> ETH Zürich<br> Institute of Construction and Infrastructure Management (IBI)<br> Chair of Infrastructure Management<br> HIL G 32.1, Stefano-Franscini-Platz 5<br> 8093 Zürich<br></p>
+<p><br> <br> <br> Hamed Mehranfar<br> Doctoral student<br> hmehranfar@ethz.ch<br> <br> ETH Zürich<br> Institute of Construction and Infrastructure Management (IBI)<br> Chair of Infrastructure Management<br> HIL G 32.2, Stefano-Franscini-Platz 5<br> 8093 Zürich<br></p>
 <p><a href="www.ibi.ethz.ch">www.ibi.ethz.ch</a></p>
 </div><div class="column" style="width:35%;">
 <div class="quarto-figure quarto-figure-right">

@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/5_IntPrograms/index.html",
       "/posts/04_OptimStrategies/index.html",
       "/posts/03_IntStrategies/index.html",
       "/posts/02_CSdef&DetModeling/index.html",
